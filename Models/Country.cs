@@ -9,14 +9,16 @@ namespace TravelOrganiserTool.Models
         public string Name { get; set; }
         public int RegionID { get; set; }
         public Region Region { get; set; }
-        public ICollection<Location> Locations { get; set; }
+        public string ImageFilename { get; set; }
+        public ICollection<Destination> Destinations { get; set; }
 
         public Country()
         {
             Id = 0;
             Name = string.Empty;
             RegionID = 0;
-            Locations = new List<Location>();
+            ImageFilename = string.Empty;
+            Destinations = new List<Destination>();
         }
     }
 
@@ -26,6 +28,7 @@ namespace TravelOrganiserTool.Models
         public string Name { get; set; }
         public int RegionID { get; set; }
         public string RegionName { get; set; }
+        public string ImageFilename { get; set; }
 
         public CountryDTO()
         {
@@ -33,6 +36,7 @@ namespace TravelOrganiserTool.Models
             Name = string.Empty;
             RegionID = 0;
             RegionName = string.Empty;
+            ImageFilename = string.Empty;
         }
     }
 }

@@ -2,8 +2,8 @@
 
 namespace TravelOrganiserTool.Models
 {
-    [Table("Location")]
-    public class Location
+    [Table("Destination")]
+    public class Destination
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -11,7 +11,7 @@ namespace TravelOrganiserTool.Models
         public Country Country { get; set; }
         public ICollection<Trip> Trips { get; set; }
 
-        public Location()
+        public Destination()
         {
             Id = 0;
             Name = string.Empty;
@@ -20,14 +20,14 @@ namespace TravelOrganiserTool.Models
         }
     }
 
-    public class LocationDTO
+    public class DestinationDTO
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public int CountryID { get; set; }
         public string CountryName { get; set; }
 
-        public LocationDTO()
+        public DestinationDTO()
         {
             Id = 0;
             Name = string.Empty;

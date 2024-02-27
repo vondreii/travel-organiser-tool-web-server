@@ -7,14 +7,14 @@ namespace TravelOrganiserTool.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int LocationID { get; set; }
-        public Location Location { get; set; }
+        public int DestinationID { get; set; }
+        public Destination Destination { get; set; }
 
         public Trip()
         {
             Id = 0;
             Name = string.Empty;
-            LocationID = 0;
+            DestinationID = 0;
         }
     }
 
@@ -26,8 +26,8 @@ namespace TravelOrganiserTool.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int LocationID { get; set; }
-        public string LocationName { get; set; }
+        public int DestinationID { get; set; }
+        public string DestinationName { get; set; }
         public int CountryID { get; set; }
         public string CountryName { get; set; }
         public int RegionID { get; set; }
@@ -37,8 +37,8 @@ namespace TravelOrganiserTool.Models
         {
             Id = 0;
             Name = string.Empty;
-            LocationID = 0;
-            LocationName = string.Empty;
+            DestinationID = 0;
+            DestinationName = string.Empty;
             CountryID = 0;
             CountryName = string.Empty;
             RegionID = 0;

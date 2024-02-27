@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TravelOrganiserTool.Data;
 
@@ -10,9 +11,11 @@ using TravelOrganiserTool.Data;
 namespace TravelOrganiserTool.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240227031743_initialCreate11")]
+    partial class initialCreate11
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -301,7 +304,7 @@ namespace TravelOrganiserTool.Migrations
                         });
                 });
 
-            modelBuilder.Entity("TravelOrganiserTool.Models.Destination", b =>
+            modelBuilder.Entity("TravelOrganiserTool.Models.Location", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -320,7 +323,7 @@ namespace TravelOrganiserTool.Migrations
 
                     b.HasIndex("CountryID");
 
-                    b.ToTable("Destination");
+                    b.ToTable("Location");
 
                     b.HasData(
                         new
@@ -759,7 +762,7 @@ namespace TravelOrganiserTool.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("DestinationID")
+                    b.Property<int>("LocationID")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
@@ -768,7 +771,7 @@ namespace TravelOrganiserTool.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("DestinationID");
+                    b.HasIndex("LocationID");
 
                     b.ToTable("Trip");
 
@@ -776,13 +779,13 @@ namespace TravelOrganiserTool.Migrations
                         new
                         {
                             Id = 1,
-                            DestinationID = 1,
+                            LocationID = 1,
                             Name = "Example Trip: Visiting Family in Sydney"
                         },
                         new
                         {
                             Id = 2,
-                            DestinationID = 2,
+                            LocationID = 2,
                             Name = "Example Trip: Visiting Tokyo"
                         });
                 });
@@ -798,10 +801,10 @@ namespace TravelOrganiserTool.Migrations
                     b.Navigation("Region");
                 });
 
-            modelBuilder.Entity("TravelOrganiserTool.Models.Destination", b =>
+            modelBuilder.Entity("TravelOrganiserTool.Models.Location", b =>
                 {
                     b.HasOne("TravelOrganiserTool.Models.Country", "Country")
-                        .WithMany("Destinations")
+                        .WithMany("Locations")
                         .HasForeignKey("CountryID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -811,21 +814,21 @@ namespace TravelOrganiserTool.Migrations
 
             modelBuilder.Entity("TravelOrganiserTool.Models.Trip", b =>
                 {
-                    b.HasOne("TravelOrganiserTool.Models.Destination", "Destination")
+                    b.HasOne("TravelOrganiserTool.Models.Location", "Location")
                         .WithMany("Trips")
-                        .HasForeignKey("DestinationID")
+                        .HasForeignKey("LocationID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Destination");
+                    b.Navigation("Location");
                 });
 
             modelBuilder.Entity("TravelOrganiserTool.Models.Country", b =>
                 {
-                    b.Navigation("Destinations");
+                    b.Navigation("Locations");
                 });
 
-            modelBuilder.Entity("TravelOrganiserTool.Models.Destination", b =>
+            modelBuilder.Entity("TravelOrganiserTool.Models.Location", b =>
                 {
                     b.Navigation("Trips");
                 });

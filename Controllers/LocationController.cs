@@ -38,7 +38,8 @@ namespace TravelOrganiserTool.Controllers
                     Id = c.Id,
                     Name = c.Name,
                     RegionID = c.RegionID,
-                    RegionName = c.Region.Name
+                    RegionName = c.Region.Name,
+                    ImageFilename = c.ImageFilename
                 }).ToListAsync();
 
             return Ok(items);
@@ -52,19 +53,20 @@ namespace TravelOrganiserTool.Controllers
                 Id = c.Id,
                 Name = c.Name,
                 RegionID = c.RegionID,
-                RegionName = c.Region.Name
+                RegionName = c.Region.Name,
+                ImageFilename = c.ImageFilename
             }).ToListAsync();
 
             return Ok(items);
         }
 
         [HttpGet]
-        [Route("GetAllLocationsByCountry")]
-        public async Task<IActionResult> GetAllLocationsByCountry(int countryID)
+        [Route("GetAllDestinationsByCountry")]
+        public async Task<IActionResult> GetAllDestinationsByCountry(int countryID)
         {
-            var items = await _context.Locations
+            var items = await _context.Destinations
                 .Where(l => l.CountryID == countryID)
-                .Select(l => new LocationDTO {
+                .Select(l => new DestinationDTO {
                     Id = l.Id,
                     Name = l.Name,
                     CountryID = l.CountryID,
@@ -75,10 +77,11 @@ namespace TravelOrganiserTool.Controllers
         }
 
         [HttpGet]
-        [Route("GetAllLocations")]
-        public async Task<IActionResult> GetAllLocations()
+        [Route("getAllDestinations")]
+        public async Task<IActionResult> getAllDestinations()
         {
-            var items = await _context.Locations.Select(l => new LocationDTO {
+            var items = await _context.Destinations.Select(l => new DestinationDTO
+            {
                 Id = l.Id,
                 Name = l.Name,
                 CountryID = l.CountryID,

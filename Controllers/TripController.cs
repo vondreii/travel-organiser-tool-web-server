@@ -23,12 +23,12 @@ namespace TravelOrganiserTool.Controllers
             var items = await _context.Trips.Select(t => new TripDto {
                 Id = t.Id,
                 Name = t.Name,
-                LocationID = t.LocationID,
-                LocationName = t.Location.Name,
-                CountryID = t.Location.CountryID,
-                CountryName = t.Location.Country.Name,
-                RegionID = t.Location.Country.RegionID,
-                RegionName = t.Location.Country.Region.Name
+                DestinationID = t.DestinationID,
+                DestinationName = t.Destination.Name,
+                CountryID = t.Destination.CountryID,
+                CountryName = t.Destination.Country.Name,
+                RegionID = t.Destination.Country.RegionID,
+                RegionName = t.Destination.Country.Region.Name
             }).ToListAsync();
 
             return Ok(items);
@@ -36,29 +36,29 @@ namespace TravelOrganiserTool.Controllers
 
         [HttpGet]
         [Route("GetFilteredTrips")]
-        public async Task<IActionResult> GetFilteredTrips(string? name, string? location)
+        public async Task<IActionResult> GetFilteredTrips(string? name, string? destination)
         {
-            var filteredTrips = _context.Trips.Include(t => t.Location).AsQueryable();
+            var filteredTrips = _context.Trips.Include(t => t.Destination).AsQueryable();
 
             if (!string.IsNullOrEmpty(name))
             {
                 filteredTrips = filteredTrips.Where(trip => trip.Name.Contains(name));
             }
             
-            if (!string.IsNullOrEmpty(location))
+            if (!string.IsNullOrEmpty(destination))
             {
-                filteredTrips = filteredTrips.Where(trip => trip.Location.Name.Contains(location));
+                filteredTrips = filteredTrips.Where(trip => trip.Destination.Name.Contains(destination));
             }
 
             var result = await filteredTrips.Select(t => new TripDto {
                 Id = t.Id,
                 Name = t.Name,
-                LocationID = t.LocationID,
-                LocationName = t.Location.Name,
-                CountryID = t.Location.CountryID,
-                CountryName = t.Location.Country.Name,
-                RegionID = t.Location.Country.RegionID,
-                RegionName = t.Location.Country.Region.Name
+                DestinationID = t.DestinationID,
+                DestinationName = t.Destination.Name,
+                CountryID = t.Destination.CountryID,
+                CountryName = t.Destination.Country.Name,
+                RegionID = t.Destination.Country.RegionID,
+                RegionName = t.Destination.Country.Region.Name
             }).ToListAsync();
 
             return Ok(result);
@@ -71,7 +71,7 @@ namespace TravelOrganiserTool.Controllers
             _context.Trips.Add(new Trip() {
                 Id = newTrip.Id,
                 Name = newTrip.Name,
-                LocationID = newTrip.LocationID
+                DestinationID = newTrip.DestinationID
             });
 
             _context.SaveChanges();

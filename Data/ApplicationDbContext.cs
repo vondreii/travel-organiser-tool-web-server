@@ -9,7 +9,7 @@ namespace TravelOrganiserTool.Data
         // to update, run (this is old): 
         // - Add-Migration <name> OR  dotnet ef migrations add initialCreate
         // - Update-Database OR dotnet ef database update
-        // Current Migration: InitialCreate4
+        // Current Migration: InitialCreate12
 
         // TO UPDATE DB CONTEXT:
         // - OPEN USING VISUAL STUDIO 2022
@@ -23,7 +23,7 @@ namespace TravelOrganiserTool.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
         public DbSet<Trip> Trips { get; set; }
-        public DbSet<Location> Locations { get; set; }
+        public DbSet<Destination> Destinations { get; set; }
         public DbSet<Region> Regions { get; set; } 
         public DbSet<Country> Countries { get; set; } 
 
@@ -45,18 +45,18 @@ namespace TravelOrganiserTool.Data
 
             // Populate with hard coded seed values, eg, Countries.
             TripDbData.Populate(modelBuilder);
-            LocationDbData.Populate(modelBuilder);
+            DestinationDbData.Populate(modelBuilder);
             CountryDbData.Populate(modelBuilder);
             RegionDbData.Populate(modelBuilder);
 
             modelBuilder.Entity<Trip>()
-                .HasOne(t => t.Location)
+                .HasOne(t => t.Destination)
                 .WithMany(l => l.Trips)
-                .HasForeignKey(t => t.LocationID);
+                .HasForeignKey(t => t.DestinationID);
 
-            modelBuilder.Entity<Location>()
+            modelBuilder.Entity<Destination>()
                 .HasOne(c => c.Country)
-                .WithMany(t => t.Locations)
+                .WithMany(t => t.Destinations)
                 .HasForeignKey(c => c.CountryID);
 
             modelBuilder.Entity<Country>()
