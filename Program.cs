@@ -24,7 +24,8 @@ builder.Services.AddCors(options =>
 });
 
 // Configure connection to DB
-string connectionString = "Server=DESKTOP-1A7D31U\\SQLEXPRESS;Database=TravelOrganiserTool;Trusted_Connection=True;TrustServerCertificate=True;";
+// string connectionString = "Server=DESKTOP-1A7D31U\\SQLEXPRESS;Database=TravelOrganiserTool;Trusted_Connection=True;TrustServerCertificate=True;";
+string connectionString = "Server=tcp:travel-organiser-tool.database.windows.net,1433;Initial Catalog=travel-organiser-tool-sql-db;Persist Security Info=False;User ID=svdrehnen;Password=Travel-organiser-tool-password;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
