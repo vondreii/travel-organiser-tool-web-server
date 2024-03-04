@@ -1,0 +1,2 @@
+[config]
+command = dotnet ef migrations add initialCreate && dotnet ef database update
