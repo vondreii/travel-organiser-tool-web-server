@@ -1,2 +1,2 @@
 [config]
-command = dotnet ef migrations add initialCreate && dotnet ef database update
+command = C:\Program Files\dotnet\dotnet ef migrations add initialCreate && C:\Program Files\dotnet\dotnet ef database update
