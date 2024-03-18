@@ -47,17 +47,24 @@ namespace TravelOrganiserTool.Controllers
 
         [HttpGet]
         [Route("GetAllCountries")]
-        public async Task<IActionResult> GetAllCountries()
+        public async Task<IActionResult> GetAllCountries(int skip, int take)
         {
-            var items = await _context.Countries.Select(c => new CountryDTO {
+            var totalCount = await _context.Countries.CountAsync();
+
+            var items = await _context.Countries
+            .OrderBy(c => c.Name)
+            .Skip(skip)
+            .Take(take)
+            .Select(c => new CountryDTO {
                 Id = c.Id,
                 Name = c.Name,
                 RegionID = c.RegionID,
                 RegionName = c.Region.Name,
                 ImageFilename = c.ImageFilename
-            }).ToListAsync();
+            })
+            .ToListAsync();
 
-            return Ok(items);
+            return Ok(new { TotalCount = totalCount, Items = items });
         }
 
         [HttpGet]
