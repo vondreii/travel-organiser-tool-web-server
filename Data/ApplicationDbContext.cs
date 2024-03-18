@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TravelOrganiserTool.Environment;
 using TravelOrganiserTool.Models;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+using TravelOrganiserTool.Environment;
 
 namespace TravelOrganiserTool.Data
 {
@@ -25,14 +26,22 @@ namespace TravelOrganiserTool.Data
         public DbSet<Trip> Trips { get; set; }
         public DbSet<Destination> Destinations { get; set; }
         public DbSet<Region> Regions { get; set; } 
-        public DbSet<Country> Countries { get; set; } 
+        public DbSet<Country> Countries { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-                // optionsBuilder.UseSqlServer("Server=DESKTOP-1A7D31U\\SQLEXPRESS;Database=TravelOrganiserTool;Trusted_Connection=True;TrustServerCertificate=True;");
-                optionsBuilder.UseSqlServer("Server=tcp:travel-organiser-tool.database.windows.net,1433;Initial Catalog=travel-organiser-tool-sql-db;Persist Security Info=False;User ID=svdrehnen;Password=Travel-organiser-tool-password;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                bool isProduction = EnvironmentService.Instance.IsProduction;
+
+                if (isProduction)
+                {
+                    optionsBuilder.UseSqlServer("Server=tcp:travel-organiser-tool.database.windows.net,1433;Initial Catalog=travel-organiser-tool-sql-db;Persist Security Info=False;User ID=svdrehnen;Password=Travel-organiser-tool-password;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                }
+                else
+                {
+                    optionsBuilder.UseSqlServer("Server=DESKTOP-1A7D31U\\SQLEXPRESS;Database=TravelOrganiserTool;Trusted_Connection=True;TrustServerCertificate=True;");
+                }
             }
         }
 

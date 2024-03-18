@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Net;
 using System.Text.Json.Serialization;
 using TravelOrganiserTool.Data;
+using TravelOrganiserTool.Environment;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,17 +24,27 @@ builder.Services.AddCors(options =>
     });
 });
 
+// Add configuration
+var configuration = builder.Configuration;
+EnvironmentService.Initialize(configuration);
+
+
+bool isProduction = EnvironmentService.Instance.IsProduction;
+
 // Configure connection to DB
-// string connectionString = "Server=DESKTOP-1A7D31U\\SQLEXPRESS;Database=TravelOrganiserTool;Trusted_Connection=True;TrustServerCertificate=True;";
-string connectionString = "Server=tcp:travel-organiser-tool.database.windows.net,1433;Initial Catalog=travel-organiser-tool-sql-db;Persist Security Info=False;User ID=svdrehnen;Password=Travel-organiser-tool-password;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+string connectionString = "Server=DESKTOP-1A7D31U\\SQLEXPRESS;Database=TravelOrganiserTool;Trusted_Connection=True;TrustServerCertificate=True;";
+
+if (isProduction)
+{
+    connectionString = "Server=tcp:travel-organiser-tool.database.windows.net,1433;Initial Catalog=travel-organiser-tool-sql-db;Persist Security Info=False;User ID=svdrehnen;Password=Travel-organiser-tool-password;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+}
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(connectionString);
 });
 
-// builder.Services.AddControllers();
-
+// Configure controllers
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
