@@ -13,23 +13,34 @@ builder.WebHost.ConfigureKestrel(options =>
     options.Listen(IPAddress.Loopback, 5000); 
 });
 
-// Add Cors so that we can allow requests from localhost:4200 (UI)
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowOrigin", builder =>
-    {
-        builder.WithOrigins("http://localhost:4200")
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-    });
-});
-
 // Add configuration
 var configuration = builder.Configuration;
 EnvironmentService.Initialize(configuration);
-
-
 bool isProduction = EnvironmentService.Instance.IsProduction;
+
+// Add Cors so that we can allow requests from the UI
+// localhost:4200 or travel-organiser-tool-web.azurewebsites.net
+builder.Services.AddCors(options =>
+{
+    if (isProduction)
+    {
+        options.AddPolicy("AllowOrigin", builder =>
+        {
+            builder.WithOrigins("https://travel-organiser-tool-web.azurewebsites.net")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+    }
+    else
+    {
+        options.AddPolicy("AllowOrigin", builder =>
+        {
+            builder.WithOrigins("http://localhost:4200")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+    }
+});
 
 // Configure connection to DB
 string connectionString = "Server=DESKTOP-1A7D31U\\SQLEXPRESS;Database=TravelOrganiserTool;Trusted_Connection=True;TrustServerCertificate=True;";
