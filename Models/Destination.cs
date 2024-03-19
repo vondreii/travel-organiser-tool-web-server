@@ -9,14 +9,14 @@ namespace TravelOrganiserTool.Models
         public string Name { get; set; }
         public int CountryID { get; set; }
         public Country Country { get; set; }
-        public ICollection<Trip> Trips { get; set; }
+        public ICollection<Tripstop> Tripstops { get; set; }
 
         public Destination()
         {
             Id = 0;
             Name = string.Empty;
             CountryID = 0;
-            Trips = new List<Trip>();
+            Tripstops = new List<Tripstop>();
         }
     }
 

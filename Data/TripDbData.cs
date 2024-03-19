@@ -8,8 +8,8 @@ namespace TravelOrganiserTool.Data
         public static void Populate(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Trip>().HasData(
-                new Trip { Id = 1, Name = "Example Trip: Visiting Family in Sydney", DestinationID = 1 },
-                new Trip { Id = 2, Name = "Example Trip: Visiting Tokyo", DestinationID = 2 }
+                new Trip { Id = 1, Name = "Example Trip: Visiting Family in Sydney" },
+                new Trip { Id = 2, Name = "Example Trip: Visiting Tokyo" }
             );
         }
     }

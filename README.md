@@ -8,15 +8,19 @@ This is to practice/upskill in Angular, C# .Net Entity Framework and SQL togethe
 - Can drill down and view details about each trip (WIP)
 - Add/edit/delete trips (WIP)
 
-## To run:
+## How to run C# (hosted on Azure):
+- Listens to requests at **https://travel-organiser-tool.azurewebsites.net** 
+- For example: `https://travel-organiser-tool.azurewebsites.net/api/location/GetAllRegions`
+  
+## To run C# (locally):
+- Open **travel-organiser-tool-web-server** project using Visual Studio 2022.
+    - In `appsetting.json`, change `IsProduction` to false
+    - Build the solution
+    - Use `dotnet run` or press play so it will run in the backend (localhost:5000) and listen to requests from the UI. 
+    - When asked about SSL certificates, say 'Yes' on first screen, then 'No' on second screen.
+- Run both **travel-organiser-tool-web-server** and **travel-organiser-tool-ui** applications at the same time.
+    - Both applications can't be run on the same port, so there is a CORS policy to allows request from 4200 to the different port, 5000.
 
-- Open **TravelOrganiserToolAngular** project, and run **ng serve** in the UI (localhost:4200)
-- Open **TravelOrganiserTool** project using Visual Studio 2022. Use **dotnet run** or press play so it will run in the backend (localhost:5104) and listen to requests from the UI. When asked about SSL certificates, say 'Yes' on first screen, then 'No' on second screen.
-- Run them at the same time. Both applications can't be run on the same port, so there is a CORS policy to allows request from 4200 to the different port, 5104.
-
-## Database:
-
-- Open SQL Server and use the SQLQuery.sql file.
 
 ## To update the DB:
 
@@ -24,12 +28,4 @@ This is to practice/upskill in Angular, C# .Net Entity Framework and SQL togethe
 - Seed data and table model is created in **ApplicationDbContext.cs**.
 - After updating the code, run **dotnet ef migrations add initialCreate<newNo>**, then **dotnet ef database update**.
 
-## Current TODOs:
 
-- Each div/card should open on a new page and display all the other details. (eg, date). Should be able to edit the details.
-- Should be able to delete the trip
-- Multiple members, and login details. A new member table and sessions.
-- More details for each trip, such as hotel, and things to do.
-- Can view the Itinerary for each day.
-- Can have a wishlist of future trips.
-- And keep track of finances.

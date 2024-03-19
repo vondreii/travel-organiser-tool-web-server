@@ -22,37 +22,21 @@ namespace TravelOrganiserTool.Controllers
         {
             var items = await _context.Trips.Select(t => new TripDto {
                 Id = t.Id,
-                Name = t.Name,
-                DestinationID = t.DestinationID,
-                DestinationName = t.Destination.Name,
-                CountryID = t.Destination.CountryID,
-                CountryName = t.Destination.Country.Name,
-                RegionID = t.Destination.Country.RegionID,
-                RegionName = t.Destination.Country.Region.Name
+                Name = t.Name
             }).ToListAsync();
 
             return Ok(items);
         }
 
         [HttpGet]
-        [Route("GetFilteredTrips")]
-        public async Task<IActionResult> GetFilteredTrips(string? name, string? destination)
+        [Route("GetAllTripstops")]
+        public async Task<IActionResult> GetAllTripstops()
         {
-            var filteredTrips = _context.Trips.Include(t => t.Destination).AsQueryable();
-
-            if (!string.IsNullOrEmpty(name))
+            var items = await _context.Tripstops.Select(t => new TripstopDto
             {
-                filteredTrips = filteredTrips.Where(trip => trip.Name.Contains(name));
-            }
-            
-            if (!string.IsNullOrEmpty(destination))
-            {
-                filteredTrips = filteredTrips.Where(trip => trip.Destination.Name.Contains(destination));
-            }
-
-            var result = await filteredTrips.Select(t => new TripDto {
                 Id = t.Id,
-                Name = t.Name,
+                TripID = t.TripID,
+                TripName = t.Trip.Name,
                 DestinationID = t.DestinationID,
                 DestinationName = t.Destination.Name,
                 CountryID = t.Destination.CountryID,
@@ -60,7 +44,26 @@ namespace TravelOrganiserTool.Controllers
                 RegionID = t.Destination.Country.RegionID,
                 RegionName = t.Destination.Country.Region.Name
             }).ToListAsync();
+        
+            return Ok(items);
+        }
 
+        [HttpGet]
+        [Route("GetFilteredTrips")]
+        public async Task<IActionResult> GetFilteredTrips(string? name)
+        {
+            var filteredTrips = _context.Trips.AsQueryable();
+        
+            if (!string.IsNullOrEmpty(name))
+            {
+                filteredTrips = filteredTrips.Where(trip => trip.Name.Contains(name));
+            }
+        
+            var result = await filteredTrips.Select(t => new TripDto {
+                Id = t.Id,
+                Name = t.Name
+            }).ToListAsync();
+        
             return Ok(result);
         }
 
@@ -70,10 +73,9 @@ namespace TravelOrganiserTool.Controllers
         {
             _context.Trips.Add(new Trip() {
                 Id = newTrip.Id,
-                Name = newTrip.Name,
-                DestinationID = newTrip.DestinationID
+                Name = newTrip.Name
             });
-
+        
             _context.SaveChanges();
             return Ok();
         }
