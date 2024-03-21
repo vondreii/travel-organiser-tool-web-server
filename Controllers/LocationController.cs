@@ -20,10 +20,11 @@ namespace TravelOrganiserTool.Controllers
         [Route("GetAllRegions")]
         public async Task<IActionResult> GetAllRegions()
         {
-            var items = await _context.Regions.Select(c => new RegionDTO {
-                Id = c.Id,
-                Name = c.Name
-            }).ToListAsync();
+            var items = await _context.Regions
+                .Select(c => new RegionDTO {
+                    Id = c.Id,
+                    Name = c.Name})
+                .ToListAsync();
 
             return Ok(items);
         }
@@ -39,8 +40,8 @@ namespace TravelOrganiserTool.Controllers
                     Name = c.Name,
                     RegionID = c.RegionID,
                     RegionName = c.Region.Name,
-                    ImageFilename = c.ImageFilename
-                }).ToListAsync();
+                    ImageFilename = c.ImageFilename})
+                .ToListAsync();
 
             return Ok(items);
         }
@@ -60,8 +61,7 @@ namespace TravelOrganiserTool.Controllers
                 Name = c.Name,
                 RegionID = c.RegionID,
                 RegionName = c.Region.Name,
-                ImageFilename = c.ImageFilename
-            })
+                ImageFilename = c.ImageFilename})
             .ToListAsync();
 
             return Ok(new { TotalCount = totalCount, Items = items });
@@ -77,8 +77,8 @@ namespace TravelOrganiserTool.Controllers
                     Id = l.Id,
                     Name = l.Name,
                     CountryID = l.CountryID,
-                    CountryName = l.Country.Name
-                }).ToListAsync();
+                    CountryName = l.Country.Name})
+                .ToListAsync();
 
             return Ok(items);
         }
@@ -87,13 +87,14 @@ namespace TravelOrganiserTool.Controllers
         [Route("getAllDestinations")]
         public async Task<IActionResult> getAllDestinations()
         {
-            var items = await _context.Destinations.Select(l => new DestinationDTO
-            {
-                Id = l.Id,
-                Name = l.Name,
-                CountryID = l.CountryID,
-                CountryName = l.Country.Name
-            }).ToListAsync();
+            var items = await _context.Destinations
+                .Select(l => new DestinationDTO {
+                    Id = l.Id,
+                    Name = l.Name,
+                    CountryID = l.CountryID,
+                    CountryName = l.Country.Name
+                })
+                .ToListAsync();
 
             return Ok(items);
         }
