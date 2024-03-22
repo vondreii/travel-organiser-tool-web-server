@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 using TravelOrganiserTool.Data;
 using TravelOrganiserTool.Models;
 
@@ -26,7 +27,9 @@ namespace TravelOrganiserTool.Controllers
                     Name = c.Name})
                 .ToListAsync();
 
-            return Ok(items);
+            var json = JsonSerializer.Serialize(items);
+
+            return Content(json, "application/json");
         }
 
         [HttpGet]
@@ -43,7 +46,9 @@ namespace TravelOrganiserTool.Controllers
                     ImageFilename = c.ImageFilename})
                 .ToListAsync();
 
-            return Ok(items);
+            var json = JsonSerializer.Serialize(items);
+
+            return Content(json, "application/json");
         }
 
         [HttpGet]
@@ -64,7 +69,9 @@ namespace TravelOrganiserTool.Controllers
                 ImageFilename = c.ImageFilename})
             .ToListAsync();
 
-            return Ok(new { TotalCount = totalCount, Items = items });
+            var json = JsonSerializer.Serialize(new { TotalCount = totalCount, Items = items });
+
+            return Content(json, "application/json");
         }
 
         [HttpGet]
@@ -80,7 +87,9 @@ namespace TravelOrganiserTool.Controllers
                     CountryName = l.Country.Name})
                 .ToListAsync();
 
-            return Ok(items);
+            var json = JsonSerializer.Serialize(items);
+
+            return Content(json, "application/json");
         }
 
         [HttpGet]
@@ -96,7 +105,9 @@ namespace TravelOrganiserTool.Controllers
                 })
                 .ToListAsync();
 
-            return Ok(items);
+            var json = JsonSerializer.Serialize(items);
+
+            return Content(json, "application/json");
         }
     }
 }

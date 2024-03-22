@@ -25,11 +25,16 @@ namespace TravelOrganiserTool.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public int NoOfDestinations { get; set; }
+        public List<TripstopDto> TripStops { get; set; }
+
 
         public TripDto()
         {
             Id = 0;
             Name = string.Empty;
+            NoOfDestinations = 0;
+            TripStops = new List<TripstopDto>();
         }
     }
 }

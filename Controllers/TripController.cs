@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TravelOrganiserTool.Data;
 using TravelOrganiserTool.Models;
+using System.Text.Json;
 
 namespace TravelOrganiserTool.Controllers
 {
@@ -23,10 +24,25 @@ namespace TravelOrganiserTool.Controllers
             var items = await _context.Trips
                 .Select(t => new TripDto {
                     Id = t.Id,
-                    Name = t.Name})
+                    Name = t.Name,
+                    NoOfDestinations = t.Tripstops.Count(x => x.TripID == t.Id),
+                    TripStops = t.Tripstops.Select(ts => new TripstopDto {
+                        Id = ts.Id,
+                        TripID = ts.TripID,
+                        TripName = ts.Trip.Name,
+                        DestinationID = ts.DestinationID,
+                        DestinationName = ts.Destination.Name,
+                        CountryID = ts.Destination.CountryID,
+                        CountryName = ts.Destination.Country.Name,
+                        RegionID = ts.Destination.Country.RegionID,
+                        RegionName = ts.Destination.Country.Region.Name
+                    }).ToList()
+                })
                 .ToListAsync();
 
-            return Ok(items);
+            var json = JsonSerializer.Serialize(items);
+
+            return Content(json, "application/json");
         }
 
         [HttpGet]
@@ -46,8 +62,10 @@ namespace TravelOrganiserTool.Controllers
                     RegionName = t.Destination.Country.Region.Name})
                 .Where(t => t.TripID == tripId)
                 .ToListAsync();
-        
-            return Ok(items);
+
+            var json = JsonSerializer.Serialize(items);
+
+            return Content(json, "application/json");
         }
 
         [HttpGet]
@@ -68,10 +86,26 @@ namespace TravelOrganiserTool.Controllers
             var result = await filteredTrips
                 .Select(t => new TripDto {
                     Id = t.Id,
-                    Name = t.Name})
+                    Name = t.Name,
+                    NoOfDestinations = t.Tripstops.Count(x => x.TripID == t.Id),
+                    TripStops = t.Tripstops.Select(ts => new TripstopDto
+                    {
+                        Id = ts.Id,
+                        TripID = ts.TripID,
+                        TripName = ts.Trip.Name,
+                        DestinationID = ts.DestinationID,
+                        DestinationName = ts.Destination.Name,
+                        CountryID = ts.Destination.CountryID,
+                        CountryName = ts.Destination.Country.Name,
+                        RegionID = ts.Destination.Country.RegionID,
+                        RegionName = ts.Destination.Country.Region.Name
+                    }).ToList()
+                })
                 .ToListAsync();
-        
-            return Ok(result);
+
+            var json = JsonSerializer.Serialize(result);
+
+            return Content(json, "application/json"); ;
         }
 
         [HttpPost]
