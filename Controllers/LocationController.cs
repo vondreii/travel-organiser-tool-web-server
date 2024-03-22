@@ -84,7 +84,8 @@ namespace TravelOrganiserTool.Controllers
                     Id = l.Id,
                     Name = l.Name,
                     CountryID = l.CountryID,
-                    CountryName = l.Country.Name})
+                    CountryName = l.Country.Name, 
+                    ImageFilename = l.ImageFilename})
                 .ToListAsync();
 
             var json = JsonSerializer.Serialize(items);

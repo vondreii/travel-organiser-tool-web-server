@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TravelOrganiserTool.Data;
 
@@ -11,9 +12,11 @@ using TravelOrganiserTool.Data;
 namespace TravelOrganiserTool.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240322060144_initialCreate3")]
+    partial class initialCreate3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -876,28 +879,28 @@ namespace TravelOrganiserTool.Migrations
                         new
                         {
                             Id = 1,
-                            Datetime = new DateTime(2024, 3, 22, 17, 31, 16, 71, DateTimeKind.Local).AddTicks(8526),
+                            Datetime = new DateTime(2024, 3, 22, 17, 1, 43, 874, DateTimeKind.Local).AddTicks(7701),
                             DestinationID = 6,
                             TripID = 1
                         },
                         new
                         {
                             Id = 2,
-                            Datetime = new DateTime(2024, 3, 22, 17, 31, 16, 71, DateTimeKind.Local).AddTicks(8556),
+                            Datetime = new DateTime(2024, 3, 22, 17, 1, 43, 874, DateTimeKind.Local).AddTicks(7737),
                             DestinationID = 5,
                             TripID = 1
                         },
                         new
                         {
                             Id = 3,
-                            Datetime = new DateTime(2024, 3, 22, 17, 31, 16, 71, DateTimeKind.Local).AddTicks(8558),
+                            Datetime = new DateTime(2024, 3, 22, 17, 1, 43, 874, DateTimeKind.Local).AddTicks(7739),
                             DestinationID = 13,
                             TripID = 2
                         },
                         new
                         {
                             Id = 4,
-                            Datetime = new DateTime(2024, 3, 22, 17, 31, 16, 71, DateTimeKind.Local).AddTicks(8560),
+                            Datetime = new DateTime(2024, 3, 22, 17, 1, 43, 874, DateTimeKind.Local).AddTicks(7740),
                             DestinationID = 19,
                             TripID = 2
                         });

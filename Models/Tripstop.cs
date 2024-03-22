@@ -32,6 +32,7 @@ namespace TravelOrganiserTool.Models
         public string TripName { get; set; }
         public int DestinationID { get; set; }
         public string DestinationName { get; set; }
+        public string DestinationImageFileName { get; set; }
         public int CountryID { get; set; }
         public string CountryName { get; set; }
         public int RegionID { get; set; }
@@ -44,6 +45,7 @@ namespace TravelOrganiserTool.Models
             TripName = string.Empty;
             DestinationID = 0;
             DestinationName = string.Empty;
+            DestinationImageFileName = string.Empty;
             CountryID = 0;
             CountryName = string.Empty;
             RegionID = 0;

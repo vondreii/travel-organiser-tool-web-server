@@ -8,6 +8,7 @@ namespace TravelOrganiserTool.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public int CountryID { get; set; }
+        public string ImageFilename { get; set; }
         public Country Country { get; set; }
         public ICollection<Tripstop> Tripstops { get; set; }
 
@@ -16,6 +17,7 @@ namespace TravelOrganiserTool.Models
             Id = 0;
             Name = string.Empty;
             CountryID = 0;
+            ImageFilename = string.Empty;
             Tripstops = new List<Tripstop>();
         }
     }
@@ -26,6 +28,7 @@ namespace TravelOrganiserTool.Models
         public string Name { get; set; }
         public int CountryID { get; set; }
         public string CountryName { get; set; }
+        public string ImageFilename { get; set; }
 
         public DestinationDTO()
         {
@@ -33,6 +36,7 @@ namespace TravelOrganiserTool.Models
             Name = string.Empty;
             CountryID = 0;
             CountryName = string.Empty;
+            ImageFilename = string.Empty;
         }
     }
 }
