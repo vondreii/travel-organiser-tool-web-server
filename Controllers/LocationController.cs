@@ -22,7 +22,7 @@ namespace TravelOrganiserTool.Controllers
         public async Task<IActionResult> GetAllRegions()
         {
             var items = await _context.Regions
-                .Select(c => new RegionDTO {
+                .Select(c => new RegionDto {
                     Id = c.Id,
                     Name = c.Name})
                 .ToListAsync();
@@ -38,7 +38,7 @@ namespace TravelOrganiserTool.Controllers
         {
             var items = await _context.Countries
                 .Where(c => c.RegionID == regionID)
-                .Select(c => new CountryDTO {
+                .Select(c => new CountryDto {
                     Id = c.Id,
                     Name = c.Name,
                     RegionID = c.RegionID,
@@ -61,7 +61,7 @@ namespace TravelOrganiserTool.Controllers
             .OrderBy(c => c.Name)
             .Skip(skip)
             .Take(take)
-            .Select(c => new CountryDTO {
+            .Select(c => new CountryDto {
                 Id = c.Id,
                 Name = c.Name,
                 RegionID = c.RegionID,
@@ -80,7 +80,7 @@ namespace TravelOrganiserTool.Controllers
         {
             var items = await _context.Destinations
                 .Where(l => l.CountryID == countryID)
-                .Select(l => new DestinationDTO {
+                .Select(l => new DestinationDto {
                     Id = l.Id,
                     Name = l.Name,
                     CountryID = l.CountryID,
@@ -98,7 +98,7 @@ namespace TravelOrganiserTool.Controllers
         public async Task<IActionResult> getAllDestinations()
         {
             var items = await _context.Destinations
-                .Select(l => new DestinationDTO {
+                .Select(l => new DestinationDto {
                     Id = l.Id,
                     Name = l.Name,
                     CountryID = l.CountryID,

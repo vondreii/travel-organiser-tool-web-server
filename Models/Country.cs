@@ -22,7 +22,7 @@ namespace TravelOrganiserTool.Models
         }
     }
 
-    public class CountryDTO
+    public class CountryDto
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -30,7 +30,7 @@ namespace TravelOrganiserTool.Models
         public string RegionName { get; set; }
         public string ImageFilename { get; set; }
 
-        public CountryDTO()
+        public CountryDto()
         {
             Id = 0;
             Name = string.Empty;

@@ -29,7 +29,6 @@ namespace TravelOrganiserTool.Models
     {
         public int Id { get; set; }
         public int TripID { get; set; }
-        public string TripName { get; set; }
         public int DestinationID { get; set; }
         public string DestinationName { get; set; }
         public string DestinationImageFileName { get; set; }
@@ -42,7 +41,6 @@ namespace TravelOrganiserTool.Models
         {
             Id = 0;
             TripID = 0;
-            TripName = string.Empty;
             DestinationID = 0;
             DestinationName = string.Empty;
             DestinationImageFileName = string.Empty;

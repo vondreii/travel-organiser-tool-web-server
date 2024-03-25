@@ -29,7 +29,6 @@ namespace TravelOrganiserTool.Controllers
                     TripStops = t.Tripstops.Select(ts => new TripstopDto {
                         Id = ts.Id,
                         TripID = ts.TripID,
-                        TripName = ts.Trip.Name,
                         DestinationID = ts.DestinationID,
                         DestinationName = ts.Destination.Name,
                         DestinationImageFileName = ts.Destination.ImageFilename,
@@ -54,7 +53,6 @@ namespace TravelOrganiserTool.Controllers
                 .Select(t => new TripstopDto {
                     Id = t.Id,
                     TripID = t.TripID,
-                    TripName = t.Trip.Name,
                     DestinationID = t.DestinationID,
                     DestinationName = t.Destination.Name,
                     DestinationImageFileName = t.Destination.ImageFilename,
@@ -94,7 +92,6 @@ namespace TravelOrganiserTool.Controllers
                     {
                         Id = ts.Id,
                         TripID = ts.TripID,
-                        TripName = ts.Trip.Name,
                         DestinationID = ts.DestinationID,
                         DestinationName = ts.Destination.Name,
                         DestinationImageFileName = ts.Destination.ImageFilename,

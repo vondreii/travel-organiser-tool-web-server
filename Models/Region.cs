@@ -18,12 +18,12 @@ namespace TravelOrganiserTool.Models
         }
     }
 
-    public class RegionDTO
+    public class RegionDto
     {
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public RegionDTO()
+        public RegionDto()
         {
             Id = 0;
             Name = string.Empty;
