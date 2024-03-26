@@ -8,16 +8,18 @@ namespace TravelOrganiserTool.Models
         public int Id { get; set; }
         public int TripID { get; set; }
         public int DestinationID { get; set; }
+        public DateTime Startdate { get; set; }
+        public DateTime Enddate { get; set; }
         public Trip Trip { get; set; }
         public Destination Destination { get; set; }
-        public DateTime Datetime { get; set; }
 
         public Tripstop()
         {
             Id = 0;
             TripID = 0;
             DestinationID = 0;
-            Datetime = DateTime.Now;
+            Startdate = DateTime.MinValue;
+            Enddate = DateTime.MinValue;
         }
     }
 
@@ -29,6 +31,8 @@ namespace TravelOrganiserTool.Models
     {
         public int Id { get; set; }
         public int TripID { get; set; }
+        public DateTime Startdate { get; set; }
+        public DateTime Enddate { get; set; }
         public int DestinationID { get; set; }
         public string DestinationName { get; set; }
         public string DestinationImageFileName { get; set; }
@@ -41,6 +45,8 @@ namespace TravelOrganiserTool.Models
         {
             Id = 0;
             TripID = 0;
+            Startdate = DateTime.MinValue;
+            Enddate = DateTime.MinValue;
             DestinationID = 0;
             DestinationName = string.Empty;
             DestinationImageFileName = string.Empty;

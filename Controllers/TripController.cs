@@ -29,6 +29,8 @@ namespace TravelOrganiserTool.Controllers
                     TripStops = t.Tripstops.Select(ts => new TripstopDto {
                         Id = ts.Id,
                         TripID = ts.TripID,
+                        Startdate = ts.Startdate,
+                        Enddate = ts.Enddate,
                         DestinationID = ts.DestinationID,
                         DestinationName = ts.Destination.Name,
                         DestinationImageFileName = ts.Destination.ImageFilename,
@@ -53,6 +55,8 @@ namespace TravelOrganiserTool.Controllers
                 .Select(t => new TripstopDto {
                     Id = t.Id,
                     TripID = t.TripID,
+                    Startdate = t.Startdate,
+                    Enddate = t.Enddate,
                     DestinationID = t.DestinationID,
                     DestinationName = t.Destination.Name,
                     DestinationImageFileName = t.Destination.ImageFilename,
@@ -92,6 +96,8 @@ namespace TravelOrganiserTool.Controllers
                     {
                         Id = ts.Id,
                         TripID = ts.TripID,
+                        Startdate = ts.Startdate,
+                        Enddate = ts.Enddate,
                         DestinationID = ts.DestinationID,
                         DestinationName = ts.Destination.Name,
                         DestinationImageFileName = ts.Destination.ImageFilename,
@@ -117,6 +123,44 @@ namespace TravelOrganiserTool.Controllers
                 Name = newTrip.Name
             });
         
+            _context.SaveChanges();
+            return Ok();
+        }
+
+        [HttpPost]
+        [Route("EditTrip")]
+        public IActionResult EditTrip([FromBody] TripDto newTrip)
+        {
+            var trip = _context.Trips
+                .SingleOrDefault(t => t.Id == newTrip.Id);
+
+            if (trip != null)
+            {
+                trip.Name = newTrip.Name;
+                _context.Entry(trip).State = EntityState.Modified;
+            }
+
+            _context.SaveChanges();
+            return Ok();
+        }
+
+        [HttpPost]
+        [Route("EditTripstop")]
+        public IActionResult EditTripstop([FromBody] TripstopDto newTripstop)
+        {
+            var tripstop = _context.Tripstops
+                .SingleOrDefault(t => t.Id == newTripstop.Id);
+
+            if (tripstop != null)
+            {
+                tripstop.Startdate = DateTime.MinValue; // Change when updating
+                tripstop.Enddate = DateTime.MinValue; 
+                tripstop.DestinationID = newTripstop.DestinationID;
+                tripstop.Destination = _context.Destinations.Single(d => d.Id == newTripstop.DestinationID);
+
+                _context.Entry(tripstop).State = EntityState.Modified;
+            }
+
             _context.SaveChanges();
             return Ok();
         }
