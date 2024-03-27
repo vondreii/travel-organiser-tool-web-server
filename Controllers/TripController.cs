@@ -29,8 +29,8 @@ namespace TravelOrganiserTool.Controllers
                     TripStops = t.Tripstops.Select(ts => new TripstopDto {
                         Id = ts.Id,
                         TripID = ts.TripID,
-                        Startdate = ts.Startdate,
-                        Enddate = ts.Enddate,
+                        Startdate = ts.Startdate.ToString(),
+                        Enddate = ts.Enddate.ToString(),
                         DestinationID = ts.DestinationID,
                         DestinationName = ts.Destination.Name,
                         DestinationImageFileName = ts.Destination.ImageFilename,
@@ -55,8 +55,8 @@ namespace TravelOrganiserTool.Controllers
                 .Select(t => new TripstopDto {
                     Id = t.Id,
                     TripID = t.TripID,
-                    Startdate = t.Startdate,
-                    Enddate = t.Enddate,
+                    Startdate = t.Startdate.ToString(),
+                    Enddate = t.Enddate.ToString(),
                     DestinationID = t.DestinationID,
                     DestinationName = t.Destination.Name,
                     DestinationImageFileName = t.Destination.ImageFilename,
@@ -96,8 +96,8 @@ namespace TravelOrganiserTool.Controllers
                     {
                         Id = ts.Id,
                         TripID = ts.TripID,
-                        Startdate = ts.Startdate,
-                        Enddate = ts.Enddate,
+                        Startdate = ts.Startdate.ToString(),
+                        Enddate = ts.Enddate.ToString(),
                         DestinationID = ts.DestinationID,
                         DestinationName = ts.Destination.Name,
                         DestinationImageFileName = ts.Destination.ImageFilename,
@@ -153,8 +153,8 @@ namespace TravelOrganiserTool.Controllers
 
             if (tripstop != null)
             {
-                tripstop.Startdate = DateTime.MinValue; // Change when updating
-                tripstop.Enddate = DateTime.MinValue; 
+                tripstop.Startdate = DateTime.Parse(newTripstop.Startdate);
+                tripstop.Enddate = DateTime.Parse(newTripstop.Enddate);
                 tripstop.DestinationID = newTripstop.DestinationID;
                 tripstop.Destination = _context.Destinations.Single(d => d.Id == newTripstop.DestinationID);
 

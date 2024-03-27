@@ -18,8 +18,8 @@ namespace TravelOrganiserTool.Models
             Id = 0;
             TripID = 0;
             DestinationID = 0;
-            Startdate = DateTime.MinValue;
-            Enddate = DateTime.MinValue;
+            Startdate = DateTime.Today;
+            Enddate = DateTime.Today;
         }
     }
 
@@ -31,8 +31,8 @@ namespace TravelOrganiserTool.Models
     {
         public int Id { get; set; }
         public int TripID { get; set; }
-        public DateTime Startdate { get; set; }
-        public DateTime Enddate { get; set; }
+        public string Startdate { get; set; }
+        public string Enddate { get; set; }
         public int DestinationID { get; set; }
         public string DestinationName { get; set; }
         public string DestinationImageFileName { get; set; }
@@ -45,8 +45,8 @@ namespace TravelOrganiserTool.Models
         {
             Id = 0;
             TripID = 0;
-            Startdate = DateTime.MinValue;
-            Enddate = DateTime.MinValue;
+            Startdate = DateTime.Today.ToString();
+            Enddate = DateTime.Today.ToString();
             DestinationID = 0;
             DestinationName = string.Empty;
             DestinationImageFileName = string.Empty;
