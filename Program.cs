@@ -26,7 +26,7 @@ builder.Services.AddCors(options =>
     {
         options.AddPolicy("AllowOrigin", builder =>
         {
-            builder.WithOrigins("https://travel-organiser-tool-web.azurewebsites.net")
+            builder.WithOrigins("https://travelorganiser.azurewebsites.net/")
                 .AllowAnyHeader()
                 .AllowAnyMethod();
         });
