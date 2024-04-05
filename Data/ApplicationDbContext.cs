@@ -26,7 +26,7 @@ namespace TravelOrganiserTool.Data
 
                 if (isProduction)
                 {
-                    optionsBuilder.UseSqlServer("Server=tcp:travel-organiser-tool-db.database.windows.net,1433;Initial Catalog=travel-organiser-tool-db;Persist Security Info=False;User ID=travel-organiser-tool-admin;Password=hdue75j728*hs-e5dg7;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                    optionsBuilder.UseSqlServer("Server=tcp:travel-organiser-tool-server.database.windows.net,1433;Initial Catalog=travel-organiser-tool-sql;Persist Security Info=False;User ID=travel-organiser-tool-admin;Password=hdue_75j728hse5dg7;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
                 }
                 else
                 {
