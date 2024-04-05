@@ -9,8 +9,8 @@ This is to practice/upskill in Angular, C# .Net Entity Framework and SQL togethe
 - Add/edit/delete trips (WIP)
 
 ## How to run C# (hosted on Azure):
-- Listens to requests at **https://travelorganiser.azurewebsites.net** 
-- For example: `https://travelorganiser.azurewebsites.net/api/location/GetAllRegions`
+- Listens to requests at **https://travel-organiser-tool-web-server.azurewebsites.net/** 
+- For example: `https://travel-organiser-tool-web-server.azurewebsites.net/api/location/GetAllRegions`
   
 ## To run C# (locally):
 - Open **travel-organiser-tool-web-server** project using Visual Studio 2022.
