@@ -19,14 +19,14 @@ EnvironmentService.Initialize(configuration);
 bool isProduction = EnvironmentService.Instance.IsProduction;
 
 // Add Cors so that we can allow requests from the UI
-// localhost:4200 or travelorganiser.azurewebsites.net
+// localhost:4200 or travel-organiser-tool-web.azurewebsites.net
 builder.Services.AddCors(options =>
 {
     if (isProduction)
     {
         options.AddPolicy("AllowOrigin", builder =>
         {
-            builder.WithOrigins("https://travelorganiser.azurewebsites.net")
+            builder.WithOrigins("https://travel-organiser-tool-web.azurewebsites.net")
                 .AllowAnyHeader()
                 .AllowAnyMethod();
         });
