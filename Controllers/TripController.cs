@@ -128,6 +128,23 @@ namespace TravelOrganiserTool.Controllers
         }
 
         [HttpPost]
+        [Route("AddTripStop")]
+        public IActionResult AddTripStop([FromBody] TripstopDto newTripstop)
+        {
+            _context.Tripstops.Add(new Tripstop()
+            {
+                Id = newTripstop.Id,
+                TripID = newTripstop.TripID,
+                DestinationID = newTripstop.DestinationID,
+                Startdate = DateTime.Parse(newTripstop.Startdate),
+                Enddate = DateTime.Parse(newTripstop.Enddate),
+            });
+
+            _context.SaveChanges();
+            return Ok();
+        }
+
+        [HttpPost]
         [Route("EditTrip")]
         public IActionResult EditTrip([FromBody] TripDto newTrip)
         {
