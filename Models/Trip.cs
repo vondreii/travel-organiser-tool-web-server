@@ -7,12 +7,14 @@ namespace TravelOrganiserTool.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public DateTime CreatedDate { get; set; }
         public ICollection<Tripstop> Tripstops { get; set; }
 
         public Trip()
         {
             Id = 0;
             Name = string.Empty;
+            CreatedDate = DateTime.Today;
             Tripstops = new List<Tripstop>();
         }
     }
@@ -25,6 +27,7 @@ namespace TravelOrganiserTool.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public string CreatedDate { get; set; }
         public int NoOfDestinations { get; set; }
         public List<TripstopDto> TripStops { get; set; }
 
@@ -33,6 +36,7 @@ namespace TravelOrganiserTool.Models
         {
             Id = 0;
             Name = string.Empty;
+            CreatedDate = DateTime.Today.ToString();
             NoOfDestinations = 0;
             TripStops = new List<TripstopDto>();
         }

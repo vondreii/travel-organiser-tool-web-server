@@ -25,6 +25,7 @@ namespace TravelOrganiserTool.Controllers
                 .Select(t => new TripDto {
                     Id = t.Id,
                     Name = t.Name,
+                    CreatedDate = t.CreatedDate.ToString(),
                     NoOfDestinations = t.Tripstops.Count(x => x.TripID == t.Id),
                     TripStops = t.Tripstops.Select(ts => new TripstopDto {
                         Id = ts.Id,
@@ -91,6 +92,7 @@ namespace TravelOrganiserTool.Controllers
                 .Select(t => new TripDto {
                     Id = t.Id,
                     Name = t.Name,
+                    CreatedDate = t.CreatedDate.ToString(),
                     NoOfDestinations = t.Tripstops.Count(x => x.TripID == t.Id),
                     TripStops = t.Tripstops.Select(ts => new TripstopDto
                     {
@@ -120,7 +122,8 @@ namespace TravelOrganiserTool.Controllers
         {
             _context.Trips.Add(new Trip() {
                 Id = newTrip.Id,
-                Name = newTrip.Name
+                Name = newTrip.Name,
+                CreatedDate = DateTime.UtcNow
             });
         
             _context.SaveChanges();
@@ -154,6 +157,7 @@ namespace TravelOrganiserTool.Controllers
             if (trip != null)
             {
                 trip.Name = editedTrip.Name;
+                trip.CreatedDate = DateTime.Parse(editedTrip.CreatedDate);
                 _context.Entry(trip).State = EntityState.Modified;
             }
 
