@@ -181,5 +181,21 @@ namespace TravelOrganiserTool.Controllers
             _context.SaveChanges();
             return Ok();
         }
+
+        [HttpPost]
+        [Route("DeleteTripstop")]
+        public IActionResult DeleteTripstop([FromBody] TripstopDto deleteTripstop)
+        {
+            var tripstop = _context.Tripstops
+                .SingleOrDefault(t => t.Id == deleteTripstop.Id);
+
+            if (tripstop != null)
+            {
+                _context.Tripstops.Remove(tripstop);
+            }
+
+            _context.SaveChanges();
+            return Ok();
+        }
     }
 }
