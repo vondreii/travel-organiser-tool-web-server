@@ -146,14 +146,14 @@ namespace TravelOrganiserTool.Controllers
 
         [HttpPost]
         [Route("EditTrip")]
-        public IActionResult EditTrip([FromBody] TripDto newTrip)
+        public IActionResult EditTrip([FromBody] TripDto editedTrip)
         {
             var trip = _context.Trips
-                .SingleOrDefault(t => t.Id == newTrip.Id);
+                .SingleOrDefault(t => t.Id == editedTrip.Id);
 
             if (trip != null)
             {
-                trip.Name = newTrip.Name;
+                trip.Name = editedTrip.Name;
                 _context.Entry(trip).State = EntityState.Modified;
             }
 
@@ -162,18 +162,34 @@ namespace TravelOrganiserTool.Controllers
         }
 
         [HttpPost]
+        [Route("DeleteTrip")]
+        public IActionResult DeleteTrip([FromBody] TripDto deletedTrip)
+        {
+            var trip = _context.Trips
+                .SingleOrDefault(t => t.Id == deletedTrip.Id);
+
+            if (trip != null)
+            {
+                _context.Trips.Remove(trip);
+            }
+
+            _context.SaveChanges();
+            return Ok();
+        }
+
+        [HttpPost]
         [Route("EditTripstop")]
-        public IActionResult EditTripstop([FromBody] TripstopDto newTripstop)
+        public IActionResult EditTripstop([FromBody] TripstopDto editedTripstop)
         {
             var tripstop = _context.Tripstops
-                .SingleOrDefault(t => t.Id == newTripstop.Id);
+                .SingleOrDefault(t => t.Id == editedTripstop.Id);
 
             if (tripstop != null)
             {
-                tripstop.Startdate = DateTime.Parse(newTripstop.Startdate);
-                tripstop.Enddate = DateTime.Parse(newTripstop.Enddate);
-                tripstop.DestinationID = newTripstop.DestinationID;
-                tripstop.Destination = _context.Destinations.Single(d => d.Id == newTripstop.DestinationID);
+                tripstop.Startdate = DateTime.Parse(editedTripstop.Startdate);
+                tripstop.Enddate = DateTime.Parse(editedTripstop.Enddate);
+                tripstop.DestinationID = editedTripstop.DestinationID;
+                tripstop.Destination = _context.Destinations.Single(d => d.Id == editedTripstop.DestinationID);
 
                 _context.Entry(tripstop).State = EntityState.Modified;
             }
