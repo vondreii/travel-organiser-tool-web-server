@@ -9,13 +9,13 @@ namespace TravelOrganiserTool.Data
         {
             modelBuilder.Entity<Destination>().HasData(
                 // Australia
-                new Destination { Id = 1, Name = "Adelaide", CountryID = 1, ImageFilename = "no-image.jpg" },
-                new Destination { Id = 2, Name = "Brisbane", CountryID = 1, ImageFilename = "no-image.jpg" },
-                new Destination { Id = 3, Name = "Canberra", CountryID = 1, ImageFilename = "no-image.jpg" },
-                new Destination { Id = 4, Name = "Hobart", CountryID = 1, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 1, Name = "Adelaide", CountryID = 1, ImageFilename = "adelaide.jpg" },
+                new Destination { Id = 2, Name = "Brisbane", CountryID = 1, ImageFilename = "brisbane.jpg" },
+                new Destination { Id = 3, Name = "Canberra", CountryID = 1, ImageFilename = "canberra.jpg" },
+                new Destination { Id = 4, Name = "Hobart", CountryID = 1, ImageFilename = "hobart.jpg" },
                 new Destination { Id = 5, Name = "Melbourne", CountryID = 1, ImageFilename = "melbourne.jpg" },
                 new Destination { Id = 6, Name = "Sydney", CountryID = 1, ImageFilename = "sydney.jpg" },
-                new Destination { Id = 7, Name = "Perth", CountryID = 1, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 7, Name = "Perth", CountryID = 1, ImageFilename = "perth.jpg" },
                 // Asia - China
                 new Destination { Id = 8, Name = "Beijing", CountryID = 2, ImageFilename = "no-image.jpg" },
                 new Destination { Id = 9, Name = "Shanghai", CountryID = 2, ImageFilename = "no-image.jpg" },
