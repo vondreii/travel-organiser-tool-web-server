@@ -24,7 +24,7 @@ namespace TravelOrganiserTool.Data
                 new Destination { Id = 11, Name = "Kolkata", CountryID = 3, ImageFilename = "kolkata.jpg" },
                 new Destination { Id = 12, Name = "Hyderabad", CountryID = 3, ImageFilename = "hyderabad.jpg" },
                 // Asia - Japan
-                new Destination { Id = 13, Name = "Tokyo", CountryID = 4, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 13, Name = "Tokyo", CountryID = 4, ImageFilename = "tokyo.jpg" },
                 new Destination { Id = 14, Name = "Osaka", CountryID = 4, ImageFilename = "osaka.jpg" },
                 new Destination { Id = 15, Name = "Hiroshima", CountryID = 4, ImageFilename = "hiroshima.jpg" },
                 // Asia - Malaysia
@@ -60,50 +60,50 @@ namespace TravelOrganiserTool.Data
                 new Destination { Id = 33, Name = "Venice", CountryID = 17, ImageFilename = "venice.jpg" },
                 new Destination { Id = 34, Name = "Florence", CountryID = 17, ImageFilename = "florence.jpg" },
                 // Europe - Norway
-                new Destination { Id = 35, Name = "Oslo", CountryID = 18, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 35, Name = "Oslo", CountryID = 18, ImageFilename = "oslo.jpg" },
                 // Europe - United Kingdom
-                new Destination { Id = 36, Name = "London", CountryID = 19, ImageFilename = "no-image.jpg" },
-                new Destination { Id = 37, Name = "Bristol", CountryID = 19, ImageFilename = "no-image.jpg" },
-                new Destination { Id = 38, Name = "Manchester", CountryID = 19, ImageFilename = "no-image.jpg" },
-                new Destination { Id = 39, Name = "Birmingham", CountryID = 19, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 36, Name = "London", CountryID = 19, ImageFilename = "london.jpg" },
+                new Destination { Id = 37, Name = "Bristol", CountryID = 19, ImageFilename = "bristol.jpg" },
+                new Destination { Id = 38, Name = "Manchester", CountryID = 19, ImageFilename = "manchester.jpg" },
+                new Destination { Id = 39, Name = "Birmingham", CountryID = 19, ImageFilename = "birmingham.jpg" },
                 // North America - Bahamas
-                new Destination { Id = 40, Name = "Nassau", CountryID = 20, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 40, Name = "Nassau", CountryID = 20, ImageFilename = "nassau.jpg" },
                 // North America - Canada
-                new Destination { Id = 41, Name = "Toronto", CountryID = 21, ImageFilename = "no-image.jpg" },
-                new Destination { Id = 42, Name = "Vancouver", CountryID = 21, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 41, Name = "Toronto", CountryID = 21, ImageFilename = "toronto.jpg" },
+                new Destination { Id = 42, Name = "Vancouver", CountryID = 21, ImageFilename = "vancouver.jpg" },
                 // North America - Jamaica
-                new Destination { Id = 43, Name = "Montego Bay", CountryID = 22, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 43, Name = "Montego Bay", CountryID = 22, ImageFilename = "montego-bay.jpg" },
                 // North America - Mexico
-                new Destination { Id = 44, Name = "Mexico City", CountryID = 23, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 44, Name = "Mexico City", CountryID = 23, ImageFilename = "mexico-city.jpg" },
                 // North America - United States
-                new Destination { Id = 45, Name = "Boston", CountryID = 24, ImageFilename = "no-image.jpg" },
-                new Destination { Id = 46, Name = "Chicago", CountryID = 24, ImageFilename = "no-image.jpg" },
-                new Destination { Id = 47, Name = "Los Angeles", CountryID = 24, ImageFilename = "no-image.jpg" },
-                new Destination { Id = 48, Name = "New York", CountryID = 24, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 45, Name = "Boston", CountryID = 24, ImageFilename = "boston.jpg" },
+                new Destination { Id = 46, Name = "Chicago", CountryID = 24, ImageFilename = "chicago.jpg" },
+                new Destination { Id = 47, Name = "Los Angeles", CountryID = 24, ImageFilename = "los-angeles.jpg" },
+                new Destination { Id = 48, Name = "New York", CountryID = 24, ImageFilename = "new-york.jpg" },
                 // South America - Argentina
-                new Destination { Id = 49, Name = "Buenos Aires", CountryID = 25, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 49, Name = "Buenos Aires", CountryID = 25, ImageFilename = "buenos-aires.jpg" },
                 // South America - Brazil
-                new Destination { Id = 50, Name = "Rio de Janeiro", CountryID = 26, ImageFilename = "no-image.jpg" },
-                new Destination { Id = 51, Name = "Salvador", CountryID = 26, ImageFilename = "no-image.jpg" },
-                new Destination { Id = 52, Name = "Sao Paulo", CountryID = 26, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 50, Name = "Rio de Janeiro", CountryID = 26, ImageFilename = "rio-de-janeiro.jpg" },
+                new Destination { Id = 51, Name = "Salvador", CountryID = 26, ImageFilename = "salvador.jpg" },
+                new Destination { Id = 52, Name = "Sao Paulo", CountryID = 26, ImageFilename = "sao-paulo.jpg" },
                 // South America - Chile
-                new Destination { Id = 53, Name = "Santiago", CountryID = 27, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 53, Name = "Santiago", CountryID = 27, ImageFilename = "santiago.jpg" },
                 // South America - Ecuador
-                new Destination { Id = 54, Name = "Quito", CountryID = 28, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 54, Name = "Quito", CountryID = 28, ImageFilename = "quito.jpg" },
                 // South America - Peru
-                new Destination { Id = 55, Name = "Arequipa", CountryID = 29, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 55, Name = "Arequipa", CountryID = 29, ImageFilename = "arequipa.jpg" },
                 // Africa - Ethiopia
-                new Destination { Id = 56, Name = "Addis Ababa", CountryID = 30, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 56, Name = "Addis Ababa", CountryID = 30, ImageFilename = "addis-ababa.jpg" },
                 // Africa - Kenya
-                new Destination { Id = 57, Name = "Nairobi", CountryID = 31, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 57, Name = "Nairobi", CountryID = 31, ImageFilename = "nairobi.jpg" },
                 // Africa - Nigeria
-                new Destination { Id = 58, Name = "Lagos", CountryID = 32, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 58, Name = "Lagos", CountryID = 32, ImageFilename = "lagos.jpg" },
                 // Africa - Rwanda
-                new Destination { Id = 59, Name = "Kigali", CountryID = 33, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 59, Name = "Kigali", CountryID = 33, ImageFilename = "kigali.jpg" },
                 // Africa - South Africa
-                new Destination { Id = 60, Name = "Johannesburg", CountryID = 34, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 60, Name = "Johannesburg", CountryID = 34, ImageFilename = "johannesburg.jpg" },
                 // Africa - Zimbabwe
-                new Destination { Id = 61, Name = "Harare", CountryID = 35, ImageFilename = "no-image.jpg" },
+                new Destination { Id = 61, Name = "Harare", CountryID = 35, ImageFilename = "harare.jpg" },
                 // Antarctica
                 new Destination { Id = 62, Name = "McMurdo Station", CountryID = 36, ImageFilename = "mcmurdo-station.jpg" }
             );
