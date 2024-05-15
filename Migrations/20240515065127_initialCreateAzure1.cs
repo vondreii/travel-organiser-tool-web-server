@@ -5,7 +5,7 @@
 namespace TravelOrganiserTool.Migrations
 {
     /// <inheritdoc />
-    public partial class initialCreateAzure4 : Migration
+    public partial class initialCreateAzure1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
