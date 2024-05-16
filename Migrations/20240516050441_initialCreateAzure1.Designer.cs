@@ -12,8 +12,8 @@ using TravelOrganiserTool.Data;
 namespace TravelOrganiserTool.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240516005738_initialCreateAzure2")]
-    partial class initialCreateAzure2
+    [Migration("20240516050441_initialCreateAzure1")]
+    partial class initialCreateAzure1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,45 @@ namespace TravelOrganiserTool.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("TravelOrganiserTool.Models.ClimateType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ClimateType");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Sunny"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Tropical"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Chilly"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Snowy"
+                        });
+                });
 
             modelBuilder.Entity("TravelOrganiserTool.Models.Country", b =>
                 {
@@ -1510,6 +1549,9 @@ namespace TravelOrganiserTool.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("ClimateTypeID")
+                        .HasColumnType("int");
+
                     b.Property<int>("CountryID")
                         .HasColumnType("int");
 
@@ -1521,9 +1563,21 @@ namespace TravelOrganiserTool.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("PopulationTypeID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TerrainTypeID")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("ClimateTypeID");
+
                     b.HasIndex("CountryID");
+
+                    b.HasIndex("PopulationTypeID");
+
+                    b.HasIndex("TerrainTypeID");
 
                     b.ToTable("Destination");
 
@@ -1531,86 +1585,156 @@ namespace TravelOrganiserTool.Migrations
                         new
                         {
                             Id = 1,
+                            ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "adelaide.jpg",
-                            Name = "Adelaide"
+                            Name = "Adelaide",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
                         },
                         new
                         {
                             Id = 2,
+                            ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "brisbane.jpg",
-                            Name = "Brisbane"
+                            Name = "Brisbane",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
                         },
                         new
                         {
                             Id = 3,
+                            ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "canberra.jpg",
-                            Name = "Canberra"
+                            Name = "Canberra",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
                         },
                         new
                         {
                             Id = 4,
+                            ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "hobart.jpg",
-                            Name = "Hobart"
+                            Name = "Hobart",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
                         },
                         new
                         {
                             Id = 5,
+                            ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "melbourne.jpg",
-                            Name = "Melbourne"
+                            Name = "Melbourne",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
                         },
                         new
                         {
                             Id = 6,
+                            ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "sydney.jpg",
-                            Name = "Sydney"
+                            Name = "Sydney",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
                         },
                         new
                         {
                             Id = 7,
+                            ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "perth.jpg",
-                            Name = "Perth"
+                            Name = "Perth",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
                         },
                         new
                         {
                             Id = 8,
+                            ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
-                            Name = "Newcastle"
+                            Name = "Newcastle",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 9
                         },
                         new
                         {
                             Id = 9,
+                            ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
-                            Name = "Central Coast"
+                            Name = "Central Coast",
+                            PopulationTypeID = 2,
+                            TerrainTypeID = 9
                         },
                         new
                         {
                             Id = 10,
+                            ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
-                            Name = "Hunter Valley"
+                            Name = "Hunter Valley",
+                            PopulationTypeID = 2,
+                            TerrainTypeID = 7
                         },
                         new
                         {
                             Id = 11,
+                            ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
-                            Name = "Nelson Bay"
+                            Name = "Nelson Bay",
+                            PopulationTypeID = 2,
+                            TerrainTypeID = 9
                         },
                         new
                         {
                             Id = 12,
+                            ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
-                            Name = "Port Macquarie"
+                            Name = "Port Macquarie",
+                            PopulationTypeID = 2,
+                            TerrainTypeID = 9
+                        });
+                });
+
+            modelBuilder.Entity("TravelOrganiserTool.Models.PopulationType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PopulationType");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "City"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Town"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Rural (Non Urban)"
                         });
                 });
 
@@ -1715,6 +1839,80 @@ namespace TravelOrganiserTool.Migrations
                         {
                             Id = 16,
                             Name = "South Pole"
+                        });
+                });
+
+            modelBuilder.Entity("TravelOrganiserTool.Models.TerrainType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TerrainType");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Major Cities"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Desert"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Forest"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Cliffs"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "Hills"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Name = "Marsh"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Name = "Farmland"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Name = "Beach"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Name = "Coastal"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Name = "Waterfront"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Name = "Mountains"
                         });
                 });
 
@@ -1828,13 +2026,37 @@ namespace TravelOrganiserTool.Migrations
 
             modelBuilder.Entity("TravelOrganiserTool.Models.Destination", b =>
                 {
+                    b.HasOne("TravelOrganiserTool.Models.ClimateType", "ClimateType")
+                        .WithMany("Destinations")
+                        .HasForeignKey("ClimateTypeID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("TravelOrganiserTool.Models.Country", "Country")
                         .WithMany("Destinations")
                         .HasForeignKey("CountryID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("TravelOrganiserTool.Models.PopulationType", "PopulationType")
+                        .WithMany("Destinations")
+                        .HasForeignKey("PopulationTypeID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TravelOrganiserTool.Models.TerrainType", "TerrainType")
+                        .WithMany("Destinations")
+                        .HasForeignKey("TerrainTypeID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ClimateType");
+
                     b.Navigation("Country");
+
+                    b.Navigation("PopulationType");
+
+                    b.Navigation("TerrainType");
                 });
 
             modelBuilder.Entity("TravelOrganiserTool.Models.Tripstop", b =>
@@ -1856,6 +2078,11 @@ namespace TravelOrganiserTool.Migrations
                     b.Navigation("Trip");
                 });
 
+            modelBuilder.Entity("TravelOrganiserTool.Models.ClimateType", b =>
+                {
+                    b.Navigation("Destinations");
+                });
+
             modelBuilder.Entity("TravelOrganiserTool.Models.Country", b =>
                 {
                     b.Navigation("Destinations");
@@ -1866,9 +2093,19 @@ namespace TravelOrganiserTool.Migrations
                     b.Navigation("Tripstops");
                 });
 
+            modelBuilder.Entity("TravelOrganiserTool.Models.PopulationType", b =>
+                {
+                    b.Navigation("Destinations");
+                });
+
             modelBuilder.Entity("TravelOrganiserTool.Models.Region", b =>
                 {
                     b.Navigation("Countries");
+                });
+
+            modelBuilder.Entity("TravelOrganiserTool.Models.TerrainType", b =>
+                {
+                    b.Navigation("Destinations");
                 });
 
             modelBuilder.Entity("TravelOrganiserTool.Models.Trip", b =>

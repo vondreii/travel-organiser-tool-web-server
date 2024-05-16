@@ -83,9 +83,15 @@ namespace TravelOrganiserTool.Controllers
                 .Select(l => new DestinationDto {
                     Id = l.Id,
                     Name = l.Name,
+                    ImageFilename = l.ImageFilename,
                     CountryID = l.CountryID,
-                    CountryName = l.Country.Name, 
-                    ImageFilename = l.ImageFilename})
+                    CountryName = l.Country.Name,
+                    PopulationTypeID = l.PopulationTypeID,
+                    PopulationTypeName = l.PopulationType.Name,
+                    ClimateTypeID = l.ClimateTypeID,
+                    ClimateTypeName = l.ClimateType.Name,
+                    TerrainTypeID = l.TerrainTypeID,
+                    TerrainTypeName = l.TerrainType.Name})
                 .ToListAsync();
 
             var json = JsonSerializer.Serialize(items);
@@ -101,9 +107,15 @@ namespace TravelOrganiserTool.Controllers
                 .Select(l => new DestinationDto {
                     Id = l.Id,
                     Name = l.Name,
+                    ImageFilename = l.ImageFilename,
                     CountryID = l.CountryID,
-                    CountryName = l.Country.Name
-                })
+                    CountryName = l.Country.Name,
+                    PopulationTypeID = l.PopulationTypeID,
+                    PopulationTypeName = l.PopulationType.Name,
+                    ClimateTypeID = l.ClimateTypeID,
+                    ClimateTypeName = l.ClimateType.Name,
+                    TerrainTypeID = l.TerrainTypeID,
+                    TerrainTypeName = l.TerrainType.Name})
                 .ToListAsync();
 
             var json = JsonSerializer.Serialize(items);

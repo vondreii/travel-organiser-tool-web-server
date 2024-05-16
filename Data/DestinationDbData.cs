@@ -9,18 +9,18 @@ namespace TravelOrganiserTool.Data
         {
             modelBuilder.Entity<Destination>().HasData(
                 // Australia
-                new Destination { Id = 1, CountryID = 1, Name = "Adelaide", ImageFilename = "adelaide.jpg" },
-                new Destination { Id = 2, CountryID = 1, Name = "Brisbane", ImageFilename = "brisbane.jpg" },
-                new Destination { Id = 3, CountryID = 1, Name = "Canberra", ImageFilename = "canberra.jpg" },
-                new Destination { Id = 4, CountryID = 1, Name = "Hobart", ImageFilename = "hobart.jpg" },
-                new Destination { Id = 5, CountryID = 1, Name = "Melbourne", ImageFilename = "melbourne.jpg" },
-                new Destination { Id = 6, CountryID = 1, Name = "Sydney", ImageFilename = "sydney.jpg" },
-                new Destination { Id = 7, CountryID = 1, Name = "Perth", ImageFilename = "perth.jpg" },
-                new Destination { Id = 8, CountryID = 1, Name = "Newcastle", ImageFilename = "no-image.jpg" },
-                new Destination { Id = 9, CountryID = 1, Name = "Central Coast", ImageFilename = "no-image.jpg" },
-                new Destination { Id = 10, CountryID = 1, Name = "Hunter Valley", ImageFilename = "no-image.jpg" },
-                new Destination { Id = 11, CountryID = 1, Name = "Nelson Bay", ImageFilename = "no-image.jpg" },
-                new Destination { Id = 12, CountryID = 1, Name = "Port Macquarie", ImageFilename = "no-image.jpg" }
+                new Destination { Id = 1, CountryID = 1, Name = "Adelaide", ImageFilename = "adelaide.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
+                new Destination { Id = 2, CountryID = 1, Name = "Brisbane", ImageFilename = "brisbane.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
+                new Destination { Id = 3, CountryID = 1, Name = "Canberra", ImageFilename = "canberra.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
+                new Destination { Id = 4, CountryID = 1, Name = "Hobart", ImageFilename = "hobart.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
+                new Destination { Id = 5, CountryID = 1, Name = "Melbourne", ImageFilename = "melbourne.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
+                new Destination { Id = 6, CountryID = 1, Name = "Sydney", ImageFilename = "sydney.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
+                new Destination { Id = 7, CountryID = 1, Name = "Perth", ImageFilename = "perth.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
+                new Destination { Id = 8, CountryID = 1, Name = "Newcastle", ImageFilename = "no-image.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 9 },
+                new Destination { Id = 9, CountryID = 1, Name = "Central Coast", ImageFilename = "no-image.jpg", PopulationTypeID = 2, ClimateTypeID = 1, TerrainTypeID = 9 },
+                new Destination { Id = 10, CountryID = 1, Name = "Hunter Valley", ImageFilename = "no-image.jpg", PopulationTypeID = 2, ClimateTypeID = 1, TerrainTypeID = 7 },
+                new Destination { Id = 11, CountryID = 1, Name = "Nelson Bay", ImageFilename = "no-image.jpg", PopulationTypeID = 2, ClimateTypeID = 1, TerrainTypeID = 9 },
+                new Destination { Id = 12, CountryID = 1, Name = "Port Macquarie", ImageFilename = "no-image.jpg", PopulationTypeID = 2, ClimateTypeID = 1, TerrainTypeID = 9 }
 
                 // South East Asia
                 // new Destination { Id = 16, Name = "Kuala Lumpur", CountryID = 5, ImageFilename = "kuala-lumpur.jpg" },

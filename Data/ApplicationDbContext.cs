@@ -14,6 +14,9 @@ namespace TravelOrganiserTool.Data
 
         public DbSet<Trip> Trips { get; set; }
         public DbSet<Tripstop> Tripstops { get; set; }
+        public DbSet<PopulationType> PopulationTypes { get; set; }
+        public DbSet<ClimateType> ClimateTypes { get; set; }
+        public DbSet<TerrainType> TerrainTypes { get; set; }
         public DbSet<Destination> Destinations { get; set; }
         public DbSet<Region> Regions { get; set; } 
         public DbSet<Country> Countries { get; set; }
@@ -46,6 +49,9 @@ namespace TravelOrganiserTool.Data
             // Populate with hard coded seed values, eg, Countries.
             TripDbData.Populate(modelBuilder);
             TripstopDbData.Populate(modelBuilder);
+            PopulationTypeDbData.Populate(modelBuilder);
+            ClimateTypeDbData.Populate(modelBuilder);
+            TerrainTypeDbData.Populate(modelBuilder);
             DestinationDbData.Populate(modelBuilder);
             CountryDbData.Populate(modelBuilder);
             RegionDbData.Populate(modelBuilder);
@@ -64,6 +70,15 @@ namespace TravelOrganiserTool.Data
 
             modelBuilder.Entity<Destination>()
                 .HasOne(c => c.Country).WithMany(t => t.Destinations).HasForeignKey(c => c.CountryID);
+
+            modelBuilder.Entity<Destination>()
+                .HasOne(c => c.PopulationType).WithMany(t => t.Destinations).HasForeignKey(c => c.PopulationTypeID);
+
+            modelBuilder.Entity<Destination>()
+                .HasOne(c => c.ClimateType).WithMany(t => t.Destinations).HasForeignKey(c => c.ClimateTypeID);
+
+            modelBuilder.Entity<Destination>()
+                .HasOne(c => c.TerrainType).WithMany(t => t.Destinations).HasForeignKey(c => c.TerrainTypeID);
 
             modelBuilder.Entity<Country>()
                 .HasOne(c => c.Region).WithMany(r => r.Countries).HasForeignKey(c => c.RegionID);
