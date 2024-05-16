@@ -14,7 +14,7 @@ namespace TravelOrganiserTool.Controllers
 
         public TripController(ApplicationDbContext context)
         {
-            _context = context;
+            _context = context; // delete this comment
         }
 
         [HttpGet]
