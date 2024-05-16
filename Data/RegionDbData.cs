@@ -16,10 +16,11 @@ namespace TravelOrganiserTool.Data
                 new Region { Id = 5, Name = "Middle East" },
                 
                 new Region { Id = 6, Name = "Scandinavia" },
-                new Region { Id = 7, Name = "United Kingdom" },
-                new Region { Id = 8, Name = "Western Europe" },
+                new Region { Id = 7, Name = "United Kingdom and Western Europe" },
+                new Region { Id = 8, Name = "Central Europe" },
                 new Region { Id = 9, Name = "Southern Europe" },
-                
+                new Region { Id = 17, Name = "Eastern Europe and Former USSR" },
+
                 new Region { Id = 10, Name = "Northern Africa" },
                 new Region { Id = 11, Name = "Subsaharan Africa" },
                 
@@ -28,7 +29,7 @@ namespace TravelOrganiserTool.Data
                 new Region { Id = 14, Name = "Caribbean" },
                 new Region { Id = 15, Name = "South America" },
                 
-                new Region { Id = 16, Name = "Polar Regions" }
+                new Region { Id = 16, Name = "South Pole" }
             );
         }
     }
