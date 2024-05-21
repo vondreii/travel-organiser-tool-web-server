@@ -12,7 +12,7 @@ using TravelOrganiserTool.Data;
 namespace TravelOrganiserTool.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240516044133_initialCreate1")]
+    [Migration("20240521080316_initialCreate1")]
     partial class initialCreate1
     {
         /// <inheritdoc />
@@ -1587,8 +1587,8 @@ namespace TravelOrganiserTool.Migrations
                             Id = 1,
                             ClimateTypeID = 1,
                             CountryID = 1,
-                            ImageFilename = "adelaide.jpg",
-                            Name = "Adelaide",
+                            ImageFilename = "sydney.jpg",
+                            Name = "Sydney",
                             PopulationTypeID = 1,
                             TerrainTypeID = 1
                         },
@@ -1597,8 +1597,8 @@ namespace TravelOrganiserTool.Migrations
                             Id = 2,
                             ClimateTypeID = 1,
                             CountryID = 1,
-                            ImageFilename = "brisbane.jpg",
-                            Name = "Brisbane",
+                            ImageFilename = "no-image.jpg",
+                            Name = "Newcastle",
                             PopulationTypeID = 1,
                             TerrainTypeID = 1
                         },
@@ -1607,8 +1607,8 @@ namespace TravelOrganiserTool.Migrations
                             Id = 3,
                             ClimateTypeID = 1,
                             CountryID = 1,
-                            ImageFilename = "canberra.jpg",
-                            Name = "Canberra",
+                            ImageFilename = "no-image.jpg",
+                            Name = "Central Coast",
                             PopulationTypeID = 1,
                             TerrainTypeID = 1
                         },
@@ -1617,8 +1617,8 @@ namespace TravelOrganiserTool.Migrations
                             Id = 4,
                             ClimateTypeID = 1,
                             CountryID = 1,
-                            ImageFilename = "hobart.jpg",
-                            Name = "Hobart",
+                            ImageFilename = "no-image.jpg",
+                            Name = "Goulburn",
                             PopulationTypeID = 1,
                             TerrainTypeID = 1
                         },
@@ -1627,8 +1627,8 @@ namespace TravelOrganiserTool.Migrations
                             Id = 5,
                             ClimateTypeID = 1,
                             CountryID = 1,
-                            ImageFilename = "melbourne.jpg",
-                            Name = "Melbourne",
+                            ImageFilename = "no-image.jpg",
+                            Name = "The Entrance",
                             PopulationTypeID = 1,
                             TerrainTypeID = 1
                         },
@@ -1637,8 +1637,8 @@ namespace TravelOrganiserTool.Migrations
                             Id = 6,
                             ClimateTypeID = 1,
                             CountryID = 1,
-                            ImageFilename = "sydney.jpg",
-                            Name = "Sydney",
+                            ImageFilename = "no-image.jpg",
+                            Name = "Long Jetty",
                             PopulationTypeID = 1,
                             TerrainTypeID = 1
                         },
@@ -1647,8 +1647,8 @@ namespace TravelOrganiserTool.Migrations
                             Id = 7,
                             ClimateTypeID = 1,
                             CountryID = 1,
-                            ImageFilename = "perth.jpg",
-                            Name = "Perth",
+                            ImageFilename = "no-image.jpg",
+                            Name = "Nelson Bay",
                             PopulationTypeID = 1,
                             TerrainTypeID = 1
                         },
@@ -1658,9 +1658,9 @@ namespace TravelOrganiserTool.Migrations
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
-                            Name = "Newcastle",
+                            Name = "Port Macquarie",
                             PopulationTypeID = 1,
-                            TerrainTypeID = 9
+                            TerrainTypeID = 1
                         },
                         new
                         {
@@ -1668,9 +1668,9 @@ namespace TravelOrganiserTool.Migrations
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
-                            Name = "Central Coast",
-                            PopulationTypeID = 2,
-                            TerrainTypeID = 9
+                            Name = "Coffs Harbour",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
                         },
                         new
                         {
@@ -1678,9 +1678,9 @@ namespace TravelOrganiserTool.Migrations
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
-                            Name = "Hunter Valley",
-                            PopulationTypeID = 2,
-                            TerrainTypeID = 7
+                            Name = "Sawtell",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
                         },
                         new
                         {
@@ -1688,9 +1688,9 @@ namespace TravelOrganiserTool.Migrations
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
-                            Name = "Nelson Bay",
-                            PopulationTypeID = 2,
-                            TerrainTypeID = 9
+                            Name = "Dubbo",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
                         },
                         new
                         {
@@ -1698,9 +1698,1029 @@ namespace TravelOrganiserTool.Migrations
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
-                            Name = "Port Macquarie",
-                            PopulationTypeID = 2,
-                            TerrainTypeID = 9
+                            Name = "Tamworth",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 13,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Lithgow",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 14,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Three sisters",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 15,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Katoomba",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 16,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Leura Falls",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 17,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Wollongong",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 18,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Orange",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 19,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Bathurst",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 20,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Kangaroo Valley",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 21,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Jervis Bay",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 22,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Cronulla",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 23,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Byron Bay",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 24,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mount Kosciuszko",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 25,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Thredbo",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 26,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Lismore",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 27,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Broken Hill",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 28,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "melbourne.jpg",
+                            Name = "Melbourne",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 29,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Geelong",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 30,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Bendigo",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 31,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Twelve Apostles",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 32,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Apollo Bay",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 33,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Ballarat",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 34,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Traralgon",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 35,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Port Albert",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 36,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mildura",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 37,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Shepparton",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 38,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Wodonga",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 39,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Warrnambool",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 40,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "adelaide.jpg",
+                            Name = "Adelaide",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 41,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Adelaide Hills",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 42,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Clare Valley",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 43,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Eyre Peninsula",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 44,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Flinders Ranges",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 45,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Kangaroo Island",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 46,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Limestone Coast",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 47,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Murray River",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 48,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Port Augusta",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 49,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Whyalla",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 50,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Port Lincoln",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 51,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Victor Harbor",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 52,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Coober Pedy",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 53,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Port Pirie",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 54,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "brisbane.jpg",
+                            Name = "Brisbane",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 55,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Daintree Rainforest",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 56,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Gold Coast",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 57,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Great Barrier Reef",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 58,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Cairns",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 59,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Rainbow Beach",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 60,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Toowoomba",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 61,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Rockhampton City",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 62,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mount Isa City",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 63,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Bundaberg",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 64,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Hervey Bay",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 65,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mackay",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 66,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Noosa Heads",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 67,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Birdsville",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 68,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Whitsundays Islands",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 69,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Fraser Island",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 70,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Cape York Peninsula",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 71,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Townsville",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 72,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "canberra.jpg",
+                            Name = "Canberra",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 73,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "hobart.jpg",
+                            Name = "Hobart",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 74,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Port Arthur",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 75,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Flinders Island",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 76,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Cape Barren Island",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 77,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "King Island",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 78,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Launceston",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 79,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Devonport",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 80,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mt Wellington",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 81,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Darwin",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 82,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Tennant Creek",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 83,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Litchfield National Park",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 84,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mary River",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 85,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Palmerston",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 86,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Alice Springs",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 87,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Uluru",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 88,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "perth.jpg",
+                            Name = "Perth",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 89,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Broome",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 90,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Lake Hillier",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 91,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Albany",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 92,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Port Hedland",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 93,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Geraldton",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 94,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Busselton",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 95,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Esperance",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 96,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Margaret River",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 97,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Fremantle",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 98,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Wave Rock",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 99,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Kalgoorlie",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 100,
+                            ClimateTypeID = 1,
+                            CountryID = 1,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Exmouth",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 101,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Aitutaki Lagoon",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 102,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "One Foot Island",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 103,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Maire Nui Gardens",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 104,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Muri Lagoon",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 105,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Titikaveka Beach",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 106,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Punanga Nui",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 107,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Muri Night Market",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 108,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Aroa Marine Reserve",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 109,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Manuea",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 110,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Atiu",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 111,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mitiaro",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 112,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Rarotonga",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 113,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Palmerston",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 114,
+                            ClimateTypeID = 1,
+                            CountryID = 2,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Nassau",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
                         });
                 });
 
@@ -1939,13 +2959,13 @@ namespace TravelOrganiserTool.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 5, 16, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedDate = new DateTime(2024, 5, 21, 0, 0, 0, 0, DateTimeKind.Local),
                             Name = "Example Trip: Visiting Family in Sydney"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 5, 16, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedDate = new DateTime(2024, 5, 21, 0, 0, 0, 0, DateTimeKind.Local),
                             Name = "Example Trip: Visiting Tokyo"
                         });
                 });
@@ -1983,32 +3003,32 @@ namespace TravelOrganiserTool.Migrations
                         {
                             Id = 1,
                             DestinationID = 1,
-                            Enddate = new DateTime(2024, 5, 16, 0, 0, 0, 0, DateTimeKind.Local),
-                            Startdate = new DateTime(2024, 5, 16, 0, 0, 0, 0, DateTimeKind.Local),
+                            Enddate = new DateTime(2024, 5, 21, 0, 0, 0, 0, DateTimeKind.Local),
+                            Startdate = new DateTime(2024, 5, 21, 0, 0, 0, 0, DateTimeKind.Local),
                             TripID = 1
                         },
                         new
                         {
                             Id = 2,
                             DestinationID = 2,
-                            Enddate = new DateTime(2024, 5, 16, 0, 0, 0, 0, DateTimeKind.Local),
-                            Startdate = new DateTime(2024, 5, 16, 0, 0, 0, 0, DateTimeKind.Local),
+                            Enddate = new DateTime(2024, 5, 21, 0, 0, 0, 0, DateTimeKind.Local),
+                            Startdate = new DateTime(2024, 5, 21, 0, 0, 0, 0, DateTimeKind.Local),
                             TripID = 1
                         },
                         new
                         {
                             Id = 3,
                             DestinationID = 3,
-                            Enddate = new DateTime(2024, 5, 16, 0, 0, 0, 0, DateTimeKind.Local),
-                            Startdate = new DateTime(2024, 5, 16, 0, 0, 0, 0, DateTimeKind.Local),
+                            Enddate = new DateTime(2024, 5, 21, 0, 0, 0, 0, DateTimeKind.Local),
+                            Startdate = new DateTime(2024, 5, 21, 0, 0, 0, 0, DateTimeKind.Local),
                             TripID = 2
                         },
                         new
                         {
                             Id = 4,
                             DestinationID = 4,
-                            Enddate = new DateTime(2024, 5, 16, 0, 0, 0, 0, DateTimeKind.Local),
-                            Startdate = new DateTime(2024, 5, 16, 0, 0, 0, 0, DateTimeKind.Local),
+                            Enddate = new DateTime(2024, 5, 21, 0, 0, 0, 0, DateTimeKind.Local),
+                            Startdate = new DateTime(2024, 5, 21, 0, 0, 0, 0, DateTimeKind.Local),
                             TripID = 2
                         });
                 });

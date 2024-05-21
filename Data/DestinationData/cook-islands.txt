@@ -1,0 +1,14 @@
+101, 2, Aitutaki Lagoon, no-image.jpg, 1, 1, 1
+102, 2, One Foot Island, no-image.jpg, 1, 1, 1
+103, 2, Maire Nui Gardens, no-image.jpg, 1, 1, 1
+104, 2, Muri Lagoon, no-image.jpg, 1, 1, 1
+105, 2, Titikaveka Beach, no-image.jpg, 1, 1, 1
+106, 2, Punanga Nui, no-image.jpg, 1, 1, 1
+107, 2, Muri Night Market, no-image.jpg, 1, 1, 1
+108, 2, Aroa Marine Reserve, no-image.jpg, 1, 1, 1
+109, 2, Manuea, no-image.jpg, 1, 1, 1
+110, 2, Atiu, no-image.jpg, 1, 1, 1
+111, 2, Mitiaro, no-image.jpg, 1, 1, 1
+112, 2, Rarotonga, no-image.jpg, 1, 1, 1
+113, 2, Palmerston, no-image.jpg, 1, 1, 1
+114, 2, Nassau, no-image.jpg, 1, 1, 1
