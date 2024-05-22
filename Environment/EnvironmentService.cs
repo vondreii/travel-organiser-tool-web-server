@@ -30,5 +30,6 @@ namespace TravelOrganiserTool.Environment
         }
 
         public bool IsProduction => _configuration.GetValue<bool>("IsProduction");
+        public bool IsUpdateDbData => _configuration.GetValue<bool>("IsUpdateDbData");
     }
 }
