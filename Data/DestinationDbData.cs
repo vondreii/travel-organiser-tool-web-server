@@ -10,12 +10,12 @@ namespace TravelOrganiserTool.Data
     {
         public static void Populate(ModelBuilder modelBuilder)
         {
-            var destinations = new List<Destination>();
-            
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/australia.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/cook-islands.txt"));
-            
-            modelBuilder.Entity<Destination>().HasData(destinations.ToArray());
+            // var destinations = new List<Destination>();
+            // 
+            // destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/australia.txt"));
+            // destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/cook-islands.txt"));
+            // 
+            // modelBuilder.Entity<Destination>().HasData(destinations.ToArray());
 
             // modelBuilder.Entity<Destination>().HasData(
             //     // Australia
