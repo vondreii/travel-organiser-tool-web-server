@@ -11,18 +11,13 @@ namespace TravelOrganiserTool.Data
     {
         public static void Populate(ModelBuilder modelBuilder)
         {
-            bool IsUpdateDbData = EnvironmentService.Instance.IsUpdateDbData;
-
             // CORS is affected for some reason if we read from a text file. Just use this to update the DB.
-            if (IsUpdateDbData)
-            {
-                var destinations = new List<Destination>();
-                
-                destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/australia.txt"));
-                destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/cook-islands.txt"));
-                
-                modelBuilder.Entity<Destination>().HasData(destinations.ToArray());
-            }
+            var destinations = new List<Destination>();
+
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/australia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/cook-islands.txt"));
+
+            modelBuilder.Entity<Destination>().HasData(destinations.ToArray());
 
 
             // modelBuilder.Entity<Destination>().HasData(

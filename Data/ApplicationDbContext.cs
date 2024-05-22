@@ -44,47 +44,53 @@ namespace TravelOrganiserTool.Data
             // You will have to create a new migration and update the database again.
             // Now that the 'basics' is kind working, connected, should know the structure of the DB first before doing this.
             // And the controllers/services/tables that we will use.
-            base.OnModelCreating(modelBuilder);
 
-            // Populate with hard coded seed values, eg, Countries.
-            TripDbData.Populate(modelBuilder);
-            TripstopDbData.Populate(modelBuilder);
-            PopulationTypeDbData.Populate(modelBuilder);
-            ClimateTypeDbData.Populate(modelBuilder);
-            TerrainTypeDbData.Populate(modelBuilder);
-            DestinationDbData.Populate(modelBuilder);
-            CountryDbData.Populate(modelBuilder);
-            RegionDbData.Populate(modelBuilder);
+            bool IsUpdateDbData = EnvironmentService.Instance.IsUpdateDbData;
 
-            modelBuilder.Entity<Trip>()
-                .HasMany(t => t.Tripstops).WithOne(ts => ts.Trip).HasForeignKey(ts => ts.TripID);
+            if (IsUpdateDbData)
+            {
+                base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Tripstop>()
-                .HasOne(ts => ts.Trip).WithMany(t => t.Tripstops).HasForeignKey(ts => ts.TripID);
+                // Populate with hard coded seed values, eg, Countries.
+                TripDbData.Populate(modelBuilder);
+                TripstopDbData.Populate(modelBuilder);
+                PopulationTypeDbData.Populate(modelBuilder);
+                ClimateTypeDbData.Populate(modelBuilder);
+                TerrainTypeDbData.Populate(modelBuilder);
+                DestinationDbData.Populate(modelBuilder);
+                CountryDbData.Populate(modelBuilder);
+                RegionDbData.Populate(modelBuilder);
 
-            modelBuilder.Entity<Tripstop>()
-                .HasOne(ts => ts.Destination).WithMany(l => l.Tripstops).HasForeignKey(ts => ts.DestinationID);
+                modelBuilder.Entity<Trip>()
+                    .HasMany(t => t.Tripstops).WithOne(ts => ts.Trip).HasForeignKey(ts => ts.TripID);
 
-            modelBuilder.Entity<Destination>()
-                .HasMany(d => d.Tripstops).WithOne(ts => ts.Destination).HasForeignKey(ts => ts.DestinationID);
+                modelBuilder.Entity<Tripstop>()
+                    .HasOne(ts => ts.Trip).WithMany(t => t.Tripstops).HasForeignKey(ts => ts.TripID);
 
-            modelBuilder.Entity<Destination>()
-                .HasOne(c => c.Country).WithMany(t => t.Destinations).HasForeignKey(c => c.CountryID);
+                modelBuilder.Entity<Tripstop>()
+                    .HasOne(ts => ts.Destination).WithMany(l => l.Tripstops).HasForeignKey(ts => ts.DestinationID);
 
-            modelBuilder.Entity<Destination>()
-                .HasOne(c => c.PopulationType).WithMany(t => t.Destinations).HasForeignKey(c => c.PopulationTypeID);
+                modelBuilder.Entity<Destination>()
+                    .HasMany(d => d.Tripstops).WithOne(ts => ts.Destination).HasForeignKey(ts => ts.DestinationID);
 
-            modelBuilder.Entity<Destination>()
-                .HasOne(c => c.ClimateType).WithMany(t => t.Destinations).HasForeignKey(c => c.ClimateTypeID);
+                modelBuilder.Entity<Destination>()
+                    .HasOne(c => c.Country).WithMany(t => t.Destinations).HasForeignKey(c => c.CountryID);
 
-            modelBuilder.Entity<Destination>()
-                .HasOne(c => c.TerrainType).WithMany(t => t.Destinations).HasForeignKey(c => c.TerrainTypeID);
+                modelBuilder.Entity<Destination>()
+                    .HasOne(c => c.PopulationType).WithMany(t => t.Destinations).HasForeignKey(c => c.PopulationTypeID);
 
-            modelBuilder.Entity<Country>()
-                .HasOne(c => c.Region).WithMany(r => r.Countries).HasForeignKey(c => c.RegionID);
+                modelBuilder.Entity<Destination>()
+                    .HasOne(c => c.ClimateType).WithMany(t => t.Destinations).HasForeignKey(c => c.ClimateTypeID);
 
-            modelBuilder.Entity<Region>()
-                .HasMany(r => r.Countries).WithOne(c => c.Region).HasForeignKey(c => c.RegionID);
+                modelBuilder.Entity<Destination>()
+                    .HasOne(c => c.TerrainType).WithMany(t => t.Destinations).HasForeignKey(c => c.TerrainTypeID);
+
+                modelBuilder.Entity<Country>()
+                    .HasOne(c => c.Region).WithMany(r => r.Countries).HasForeignKey(c => c.RegionID);
+
+                modelBuilder.Entity<Region>()
+                    .HasMany(r => r.Countries).WithOne(c => c.Region).HasForeignKey(c => c.RegionID);
+            }
         }
     }
 }
