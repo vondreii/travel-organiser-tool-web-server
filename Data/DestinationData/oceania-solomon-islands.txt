@@ -1,0 +1,5 @@
+11001, 11, Honiara, no-image.jpg, 1, 1, 1
+11002, 11, Auki, no-image.jpg, 1, 1, 1
+11003, 11, Gizo, no-image.jpg, 1, 1, 1
+11004, 11, Guadalcanal, no-image.jpg, 1, 1, 1
+11005, 11, Rennell Island, no-image.jpg, 1, 1, 1

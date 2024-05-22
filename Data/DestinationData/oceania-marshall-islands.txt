@@ -1,0 +1,5 @@
+5001, 5, Bikini Atoll, no-image.jpg, 1, 1, 1
+5002, 5, Kwajalein Atoll, no-image.jpg, 1, 1, 1
+5003, 5, Enewetak Atoll, no-image.jpg, 1, 1, 1
+5004, 5, Jaluit Atoll, no-image.jpg, 1, 1, 1
+5005, 5, Ralik Chain, no-image.jpg, 1, 1, 1

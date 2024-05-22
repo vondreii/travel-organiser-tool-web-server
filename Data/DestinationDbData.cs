@@ -14,8 +14,20 @@ namespace TravelOrganiserTool.Data
             // CORS is affected for some reason if we read from a text file. Just use this to update the DB.
             var destinations = new List<Destination>();
 
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/australia.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/cook-islands.txt"));
+            // Oceania
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-australia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-cook-islands.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-fiji.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-kiribati.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-marshall-islands.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-micronesia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-nauru.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-new-zealand.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-papua-new-guinea.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-samoa.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-solomon-islands.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-tonga.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-vanuatu.txt"));
 
             modelBuilder.Entity<Destination>().HasData(destinations.ToArray());
 

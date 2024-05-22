@@ -12,7 +12,7 @@ using TravelOrganiserTool.Data;
 namespace TravelOrganiserTool.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240522014221_initialCreate1")]
+    [Migration("20240522024404_initialCreate1")]
     partial class initialCreate1
     {
         /// <inheritdoc />
@@ -1584,7 +1584,7 @@ namespace TravelOrganiserTool.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 1,
+                            Id = 1001,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "sydney.jpg",
@@ -1594,7 +1594,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 2,
+                            Id = 1002,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1604,7 +1604,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 3,
+                            Id = 1003,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1614,7 +1614,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 4,
+                            Id = 1004,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1624,7 +1624,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 5,
+                            Id = 1005,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1634,7 +1634,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 6,
+                            Id = 1006,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1644,7 +1644,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 7,
+                            Id = 1007,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1654,7 +1654,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 8,
+                            Id = 1008,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1664,7 +1664,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 9,
+                            Id = 1009,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1674,7 +1674,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 10,
+                            Id = 1010,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1684,7 +1684,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 11,
+                            Id = 1011,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1694,7 +1694,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 12,
+                            Id = 1012,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1704,7 +1704,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 13,
+                            Id = 1013,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1714,7 +1714,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 14,
+                            Id = 1014,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1724,7 +1724,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 15,
+                            Id = 1015,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1734,7 +1734,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 16,
+                            Id = 1016,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1744,7 +1744,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 17,
+                            Id = 1017,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1754,7 +1754,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 18,
+                            Id = 1018,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1764,7 +1764,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 19,
+                            Id = 1019,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1774,7 +1774,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 20,
+                            Id = 1020,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1784,7 +1784,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 21,
+                            Id = 1021,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1794,7 +1794,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 22,
+                            Id = 1022,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1804,7 +1804,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 23,
+                            Id = 1023,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1814,7 +1814,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 24,
+                            Id = 1024,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1824,7 +1824,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 25,
+                            Id = 1025,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1834,7 +1834,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 26,
+                            Id = 1026,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1844,7 +1844,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 27,
+                            Id = 1027,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1854,7 +1854,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 28,
+                            Id = 1028,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "melbourne.jpg",
@@ -1864,7 +1864,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 29,
+                            Id = 1029,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1874,7 +1874,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 30,
+                            Id = 1030,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1884,7 +1884,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 31,
+                            Id = 1031,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1894,7 +1894,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 32,
+                            Id = 1032,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1904,7 +1904,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 33,
+                            Id = 1033,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1914,7 +1914,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 34,
+                            Id = 1034,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1924,7 +1924,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 35,
+                            Id = 1035,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1934,7 +1934,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 36,
+                            Id = 1036,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1944,7 +1944,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 37,
+                            Id = 1037,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1954,7 +1954,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 38,
+                            Id = 1038,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1964,7 +1964,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 39,
+                            Id = 1039,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1974,7 +1974,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 40,
+                            Id = 1040,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "adelaide.jpg",
@@ -1984,7 +1984,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 41,
+                            Id = 1041,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -1994,7 +1994,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 42,
+                            Id = 1042,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2004,7 +2004,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 43,
+                            Id = 1043,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2014,7 +2014,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 44,
+                            Id = 1044,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2024,7 +2024,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 45,
+                            Id = 1045,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2034,7 +2034,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 46,
+                            Id = 1046,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2044,7 +2044,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 47,
+                            Id = 1047,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2054,7 +2054,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 48,
+                            Id = 1048,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2064,7 +2064,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 49,
+                            Id = 1049,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2074,7 +2074,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 50,
+                            Id = 1050,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2084,7 +2084,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 51,
+                            Id = 1051,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2094,7 +2094,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 52,
+                            Id = 1052,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2104,7 +2104,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 53,
+                            Id = 1053,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2114,7 +2114,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 54,
+                            Id = 1054,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "brisbane.jpg",
@@ -2124,7 +2124,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 55,
+                            Id = 1055,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2134,7 +2134,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 56,
+                            Id = 1056,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2144,7 +2144,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 57,
+                            Id = 1057,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2154,7 +2154,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 58,
+                            Id = 1058,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2164,7 +2164,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 59,
+                            Id = 1059,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2174,7 +2174,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 60,
+                            Id = 1060,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2184,7 +2184,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 61,
+                            Id = 1061,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2194,7 +2194,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 62,
+                            Id = 1062,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2204,7 +2204,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 63,
+                            Id = 1063,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2214,7 +2214,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 64,
+                            Id = 1064,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2224,7 +2224,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 65,
+                            Id = 1065,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2234,7 +2234,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 66,
+                            Id = 1066,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2244,7 +2244,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 67,
+                            Id = 1067,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2254,7 +2254,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 68,
+                            Id = 1068,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2264,7 +2264,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 69,
+                            Id = 1069,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2274,7 +2274,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 70,
+                            Id = 1070,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2284,7 +2284,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 71,
+                            Id = 1071,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2294,7 +2294,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 72,
+                            Id = 1072,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "canberra.jpg",
@@ -2304,7 +2304,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 73,
+                            Id = 1073,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "hobart.jpg",
@@ -2314,7 +2314,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 74,
+                            Id = 1074,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2324,7 +2324,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 75,
+                            Id = 1075,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2334,7 +2334,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 76,
+                            Id = 1076,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2344,7 +2344,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 77,
+                            Id = 1077,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2354,7 +2354,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 78,
+                            Id = 1078,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2364,7 +2364,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 79,
+                            Id = 1079,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2374,7 +2374,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 80,
+                            Id = 1080,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2384,7 +2384,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 81,
+                            Id = 1081,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2394,7 +2394,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 82,
+                            Id = 1082,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2404,7 +2404,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 83,
+                            Id = 1083,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2414,7 +2414,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 84,
+                            Id = 1084,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2424,7 +2424,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 85,
+                            Id = 1085,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2434,7 +2434,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 86,
+                            Id = 1086,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2444,7 +2444,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 87,
+                            Id = 1087,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2454,7 +2454,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 88,
+                            Id = 1088,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "perth.jpg",
@@ -2464,7 +2464,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 89,
+                            Id = 1089,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2474,7 +2474,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 90,
+                            Id = 1090,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2484,7 +2484,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 91,
+                            Id = 1091,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2494,7 +2494,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 92,
+                            Id = 1092,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2504,7 +2504,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 93,
+                            Id = 1093,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2514,7 +2514,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 94,
+                            Id = 1094,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2524,7 +2524,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 95,
+                            Id = 1095,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2534,7 +2534,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 96,
+                            Id = 1096,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2544,7 +2544,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 97,
+                            Id = 1097,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2554,7 +2554,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 98,
+                            Id = 1098,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2564,7 +2564,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 99,
+                            Id = 1099,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2574,7 +2574,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 100,
+                            Id = 1100,
                             ClimateTypeID = 1,
                             CountryID = 1,
                             ImageFilename = "no-image.jpg",
@@ -2584,7 +2584,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 101,
+                            Id = 2001,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
@@ -2594,7 +2594,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 102,
+                            Id = 2002,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
@@ -2604,7 +2604,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 103,
+                            Id = 2003,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
@@ -2614,7 +2614,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 104,
+                            Id = 2004,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
@@ -2624,7 +2624,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 105,
+                            Id = 2005,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
@@ -2634,7 +2634,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 106,
+                            Id = 2006,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
@@ -2644,7 +2644,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 107,
+                            Id = 2007,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
@@ -2654,7 +2654,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 108,
+                            Id = 2008,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
@@ -2664,7 +2664,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 109,
+                            Id = 2009,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
@@ -2674,7 +2674,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 110,
+                            Id = 2010,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
@@ -2684,7 +2684,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 111,
+                            Id = 2011,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
@@ -2694,7 +2694,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 112,
+                            Id = 2012,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
@@ -2704,7 +2704,7 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 113,
+                            Id = 2013,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
@@ -2714,11 +2714,691 @@ namespace TravelOrganiserTool.Migrations
                         },
                         new
                         {
-                            Id = 114,
+                            Id = 2014,
                             ClimateTypeID = 1,
                             CountryID = 2,
                             ImageFilename = "no-image.jpg",
                             Name = "Nassau",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 3001,
+                            ClimateTypeID = 1,
+                            CountryID = 3,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Nadi",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 3002,
+                            ClimateTypeID = 1,
+                            CountryID = 3,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Suva",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 3003,
+                            ClimateTypeID = 1,
+                            CountryID = 3,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Lautoka",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 3004,
+                            ClimateTypeID = 1,
+                            CountryID = 3,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Ba",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 3005,
+                            ClimateTypeID = 1,
+                            CountryID = 3,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Labasa",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 4001,
+                            ClimateTypeID = 1,
+                            CountryID = 4,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Tarawa",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 4002,
+                            ClimateTypeID = 1,
+                            CountryID = 4,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Kiritimati",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 4003,
+                            ClimateTypeID = 1,
+                            CountryID = 4,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Tabuaeran",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 4004,
+                            ClimateTypeID = 1,
+                            CountryID = 4,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Nikumaroro Island",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 4005,
+                            ClimateTypeID = 1,
+                            CountryID = 4,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Kanton Island",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 5001,
+                            ClimateTypeID = 1,
+                            CountryID = 5,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Bikini Atoll",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 5002,
+                            ClimateTypeID = 1,
+                            CountryID = 5,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Kwajalein Atoll",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 5003,
+                            ClimateTypeID = 1,
+                            CountryID = 5,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Enewetak Atoll",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 5004,
+                            ClimateTypeID = 1,
+                            CountryID = 5,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Jaluit Atoll",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 5005,
+                            ClimateTypeID = 1,
+                            CountryID = 5,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Ralik Chain",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 6001,
+                            ClimateTypeID = 1,
+                            CountryID = 6,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Weno",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 6002,
+                            ClimateTypeID = 1,
+                            CountryID = 6,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Tofol",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 6003,
+                            ClimateTypeID = 1,
+                            CountryID = 6,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Colonia",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 6004,
+                            ClimateTypeID = 1,
+                            CountryID = 6,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Kolonia",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 6005,
+                            ClimateTypeID = 1,
+                            CountryID = 6,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Kolonia Town",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 6006,
+                            ClimateTypeID = 1,
+                            CountryID = 6,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Nema",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 6007,
+                            ClimateTypeID = 1,
+                            CountryID = 6,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Satowan Village",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 6008,
+                            ClimateTypeID = 1,
+                            CountryID = 6,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Lukunor Village",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 6009,
+                            ClimateTypeID = 1,
+                            CountryID = 6,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Pulap Village",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 6010,
+                            ClimateTypeID = 1,
+                            CountryID = 6,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Kuttu Village",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 6011,
+                            ClimateTypeID = 1,
+                            CountryID = 6,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Moch Village",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 6012,
+                            ClimateTypeID = 1,
+                            CountryID = 6,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Nomwin Village",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 7001,
+                            ClimateTypeID = 1,
+                            CountryID = 7,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Meneng Terrace",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 7002,
+                            ClimateTypeID = 1,
+                            CountryID = 7,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Yaren",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 7003,
+                            ClimateTypeID = 1,
+                            CountryID = 7,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Yangor",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 7004,
+                            ClimateTypeID = 1,
+                            CountryID = 7,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Ronave",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 8001,
+                            ClimateTypeID = 1,
+                            CountryID = 8,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Auckland",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 8002,
+                            ClimateTypeID = 1,
+                            CountryID = 8,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Christchurch",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 8003,
+                            ClimateTypeID = 1,
+                            CountryID = 8,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Dunedin",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 8004,
+                            ClimateTypeID = 1,
+                            CountryID = 8,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Hamilton",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 8005,
+                            ClimateTypeID = 1,
+                            CountryID = 8,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Nelson",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 8006,
+                            ClimateTypeID = 1,
+                            CountryID = 8,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Gisborne",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 8007,
+                            ClimateTypeID = 1,
+                            CountryID = 8,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Palmerston North",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 8008,
+                            ClimateTypeID = 1,
+                            CountryID = 8,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Rotorua",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 8009,
+                            ClimateTypeID = 1,
+                            CountryID = 8,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Tauranga",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 8010,
+                            ClimateTypeID = 1,
+                            CountryID = 8,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mount Cook",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 8011,
+                            ClimateTypeID = 1,
+                            CountryID = 8,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Matamata",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 9001,
+                            ClimateTypeID = 1,
+                            CountryID = 9,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Port Moresby",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 9002,
+                            ClimateTypeID = 1,
+                            CountryID = 9,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Lae",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 9003,
+                            ClimateTypeID = 1,
+                            CountryID = 9,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Arawa",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 9004,
+                            ClimateTypeID = 1,
+                            CountryID = 9,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mount Hagen",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 9005,
+                            ClimateTypeID = 1,
+                            CountryID = 9,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Popondetta",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 9006,
+                            ClimateTypeID = 1,
+                            CountryID = 9,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Alotau",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 9007,
+                            ClimateTypeID = 1,
+                            CountryID = 9,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Madang",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 10001,
+                            ClimateTypeID = 1,
+                            CountryID = 10,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Apia",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 10002,
+                            ClimateTypeID = 1,
+                            CountryID = 10,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mount Fito",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 10003,
+                            ClimateTypeID = 1,
+                            CountryID = 10,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Samatau",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 10004,
+                            ClimateTypeID = 1,
+                            CountryID = 10,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mount Silisili",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 10005,
+                            ClimateTypeID = 1,
+                            CountryID = 10,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mount Vaea",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 11001,
+                            ClimateTypeID = 1,
+                            CountryID = 11,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Honiara",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 11002,
+                            ClimateTypeID = 1,
+                            CountryID = 11,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Auki",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 11003,
+                            ClimateTypeID = 1,
+                            CountryID = 11,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Gizo",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 11004,
+                            ClimateTypeID = 1,
+                            CountryID = 11,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Guadalcanal",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 11005,
+                            ClimateTypeID = 1,
+                            CountryID = 11,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Rennell Island",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 12001,
+                            ClimateTypeID = 1,
+                            CountryID = 12,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Nuku'alofa",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 12002,
+                            ClimateTypeID = 1,
+                            CountryID = 12,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Neiafu",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 12003,
+                            ClimateTypeID = 1,
+                            CountryID = 12,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Pangai",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 13001,
+                            ClimateTypeID = 1,
+                            CountryID = 13,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Lakatoro",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 13002,
+                            ClimateTypeID = 1,
+                            CountryID = 13,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Port Vila",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 13003,
+                            ClimateTypeID = 1,
+                            CountryID = 13,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mount Yasur",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 13004,
+                            ClimateTypeID = 1,
+                            CountryID = 13,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Blue Lagoon",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 13005,
+                            ClimateTypeID = 1,
+                            CountryID = 13,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mystery Island",
+                            PopulationTypeID = 1,
+                            TerrainTypeID = 1
+                        },
+                        new
+                        {
+                            Id = 13006,
+                            ClimateTypeID = 1,
+                            CountryID = 13,
+                            ImageFilename = "no-image.jpg",
+                            Name = "Mele Cascades",
                             PopulationTypeID = 1,
                             TerrainTypeID = 1
                         });
@@ -3002,7 +3682,7 @@ namespace TravelOrganiserTool.Migrations
                         new
                         {
                             Id = 1,
-                            DestinationID = 1,
+                            DestinationID = 1001,
                             Enddate = new DateTime(2024, 5, 22, 0, 0, 0, 0, DateTimeKind.Local),
                             Startdate = new DateTime(2024, 5, 22, 0, 0, 0, 0, DateTimeKind.Local),
                             TripID = 1
@@ -3010,7 +3690,7 @@ namespace TravelOrganiserTool.Migrations
                         new
                         {
                             Id = 2,
-                            DestinationID = 2,
+                            DestinationID = 1002,
                             Enddate = new DateTime(2024, 5, 22, 0, 0, 0, 0, DateTimeKind.Local),
                             Startdate = new DateTime(2024, 5, 22, 0, 0, 0, 0, DateTimeKind.Local),
                             TripID = 1
@@ -3018,7 +3698,7 @@ namespace TravelOrganiserTool.Migrations
                         new
                         {
                             Id = 3,
-                            DestinationID = 3,
+                            DestinationID = 1003,
                             Enddate = new DateTime(2024, 5, 22, 0, 0, 0, 0, DateTimeKind.Local),
                             Startdate = new DateTime(2024, 5, 22, 0, 0, 0, 0, DateTimeKind.Local),
                             TripID = 2
@@ -3026,7 +3706,7 @@ namespace TravelOrganiserTool.Migrations
                         new
                         {
                             Id = 4,
-                            DestinationID = 4,
+                            DestinationID = 1004,
                             Enddate = new DateTime(2024, 5, 22, 0, 0, 0, 0, DateTimeKind.Local),
                             Startdate = new DateTime(2024, 5, 22, 0, 0, 0, 0, DateTimeKind.Local),
                             TripID = 2

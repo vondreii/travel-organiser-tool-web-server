@@ -1,0 +1,7 @@
+9001, 9, Port Moresby, no-image.jpg, 1, 1, 1
+9002, 9, Lae, no-image.jpg, 1, 1, 1
+9003, 9, Arawa, no-image.jpg, 1, 1, 1
+9004, 9, Mount Hagen, no-image.jpg, 1, 1, 1
+9005, 9, Popondetta, no-image.jpg, 1, 1, 1
+9006, 9, Alotau, no-image.jpg, 1, 1, 1
+9007, 9, Madang, no-image.jpg, 1, 1, 1
