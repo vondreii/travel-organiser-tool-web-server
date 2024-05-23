@@ -1,0 +1,3 @@
+15001, 15, Yangon, no-image.jpg, 1, 1, 1
+15002, 15, Mandalay, no-image.jpg, 1, 1, 1
+15003, 15, Naypyitaw, no-image.jpg, 1, 1, 1

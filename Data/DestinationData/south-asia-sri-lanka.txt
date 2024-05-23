@@ -1,0 +1,5 @@
+41001, 41, Colombo, no-image.jpg, 1, 1, 1
+41002, 41, Kandy, no-image.jpg, 1, 1, 1
+41003, 41, Sigiriya, no-image.jpg, 1, 1, 1
+41004, 41, Sri Dalada Maligawa, no-image.jpg, 1, 1, 1
+41005, 41, Galle Dutch Fort, no-image.jpg, 1, 1, 1

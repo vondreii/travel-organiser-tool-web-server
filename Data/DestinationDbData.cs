@@ -29,48 +29,43 @@ namespace TravelOrganiserTool.Data
             destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-tonga.txt"));
             destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-vanuatu.txt"));
 
+            // South East Asia
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-brunei.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-burma.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-cambodia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-indonesia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-laos.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-malaysia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-philippines.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-singapore.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-thailand.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-timor-leste.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-vietnam.txt"));
+
+            // East Asia
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-china.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-hong-kong.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-japan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-macao.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-mongolia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-north-korea.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-south-korea.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-taiwan.txt"));
+
+            // South Asia
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-afghanistan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-bangladesh.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-bhutan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-india.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-maldives.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-nepal.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-pakistan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-sri-lanka.txt"));
+
             modelBuilder.Entity<Destination>().HasData(destinations.ToArray());
 
 
             // modelBuilder.Entity<Destination>().HasData(
-            //     // Australia
-            //     new Destination { Id = 1, CountryID = 1, Name = "Adelaide", ImageFilename = "adelaide.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
-            //     new Destination { Id = 2, CountryID = 1, Name = "Brisbane", ImageFilename = "brisbane.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
-            //     new Destination { Id = 3, CountryID = 1, Name = "Canberra", ImageFilename = "canberra.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
-            //     new Destination { Id = 4, CountryID = 1, Name = "Hobart", ImageFilename = "hobart.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
-            //     new Destination { Id = 5, CountryID = 1, Name = "Melbourne", ImageFilename = "melbourne.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
-            //     new Destination { Id = 6, CountryID = 1, Name = "Sydney", ImageFilename = "sydney.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
-            //     new Destination { Id = 7, CountryID = 1, Name = "Perth", ImageFilename = "perth.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 1 },
-            //     new Destination { Id = 8, CountryID = 1, Name = "Newcastle", ImageFilename = "no-image.jpg", PopulationTypeID = 1, ClimateTypeID = 1, TerrainTypeID = 9 },
-            //     new Destination { Id = 9, CountryID = 1, Name = "Central Coast", ImageFilename = "no-image.jpg", PopulationTypeID = 2, ClimateTypeID = 1, TerrainTypeID = 9 },
-            //     new Destination { Id = 10, CountryID = 1, Name = "Hunter Valley", ImageFilename = "no-image.jpg", PopulationTypeID = 2, ClimateTypeID = 1, TerrainTypeID = 7 },
-            //     new Destination { Id = 11, CountryID = 1, Name = "Nelson Bay", ImageFilename = "no-image.jpg", PopulationTypeID = 2, ClimateTypeID = 1, TerrainTypeID = 9 },
-            //     new Destination { Id = 12, CountryID = 1, Name = "Port Macquarie", ImageFilename = "no-image.jpg", PopulationTypeID = 2, ClimateTypeID = 1, TerrainTypeID = 9 }
-            // 
-            //     // South East Asia
-            //     // new Destination { Id = 16, Name = "Kuala Lumpur", CountryID = 5, ImageFilename = "kuala-lumpur.jpg" },
-            //     // new Destination { Id = 17, Name = "Manila", CountryID = 6, ImageFilename = "manila.jpg" },
-            //     // new Destination { Id = 18, Name = "Singapore", CountryID = 7, ImageFilename = "singapore.jpg" },
-            //     // new Destination { Id = 20, Name = "Bangkok", CountryID = 9, ImageFilename = "bangkok.jpg" },
-            //     // new Destination { Id = 21, Name = "Phuket", CountryID = 9, ImageFilename = "phuket.jpg" },
-            //     // new Destination { Id = 22, Name = "Ho Chi Minh City", CountryID = 10, ImageFilename = "ho-chi-minh-city.jpg" },
-            //     // new Destination { Id = 23, Name = "Hanoi", CountryID = 10, ImageFilename = "hanoi.jpg" },
-            //     // new Destination { Id = 63, Name = "Jakarta", CountryID = 37, ImageFilename = "no-image.jpg" },
-            //     // new Destination { Id = 64, Name = "Bali", CountryID = 37, ImageFilename = "no-image.jpg" },
-            // 
-            //     // East Asia
-            //     // new Destination { Id = 8, Name = "Beijing", CountryID = 2, ImageFilename = "beijing.jpg" },
-            //     // new Destination { Id = 9, Name = "Shanghai", CountryID = 2, ImageFilename = "shanghai.jpg" },
-            //     // new Destination { Id = 13, Name = "Tokyo", CountryID = 4, ImageFilename = "tokyo.jpg" },
-            //     // new Destination { Id = 14, Name = "Osaka", CountryID = 4, ImageFilename = "osaka.jpg" },
-            //     // new Destination { Id = 15, Name = "Hiroshima", CountryID = 4, ImageFilename = "hiroshima.jpg" },
-            //     // new Destination { Id = 19, Name = "Seoul", CountryID = 8, ImageFilename = "seoul.jpg" },
-            //     // 
-            //     // // South Asia
-            //     // new Destination { Id = 10, Name = "Mumbai", CountryID = 3, ImageFilename = "mumbai.jpg" },
-            //     // new Destination { Id = 11, Name = "Kolkata", CountryID = 3, ImageFilename = "kolkata.jpg" },
-            //     // new Destination { Id = 12, Name = "Hyderabad", CountryID = 3, ImageFilename = "hyderabad.jpg" }
-            // 
             //     // // Europe
             //     // new Destination { Id = 24, Name = "Brussels", CountryID = 11, ImageFilename = "brussels.jpg" },
             //     // new Destination { Id = 25, Name = "Bruges", CountryID = 11, ImageFilename = "bruges.jpg" },

@@ -1,0 +1,4 @@
+19001, 19, Vientiane, no-image.jpg, 1, 1, 1
+19002, 19, Luang Prabang, no-image.jpg, 1, 1, 1
+19003, 19, Pha That Luang Vientiane, no-image.jpg, 1, 1, 1
+19004, 19, Patuxay - Victory Monument, no-image.jpg, 1, 1, 1

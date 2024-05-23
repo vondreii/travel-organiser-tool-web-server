@@ -1,0 +1,10 @@
+27001, 27, Tokyo, no-image.jpg, 1, 1, 1
+27002, 27, Kyoto, no-image.jpg, 1, 1, 1
+27003, 27, Sapporo, no-image.jpg, 1, 1, 1
+27004, 27, Osaka, no-image.jpg, 1, 1, 1
+27005, 27, Yokohama, no-image.jpg, 1, 1, 1
+27006, 27, Nagoya, no-image.jpg, 1, 1, 1
+27007, 27, Kobe, no-image.jpg, 1, 1, 1
+27008, 27, Hiroshima, no-image.jpg, 1, 1, 1
+27009, 27, Fukuoka, no-image.jpg, 1, 1, 1
+27010, 27, Mount Fuji, no-image.jpg, 1, 1, 1

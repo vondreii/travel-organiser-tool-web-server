@@ -1,0 +1,6 @@
+14001, 14, Bandar Seri Begawan, no-image.jpg, 1, 1, 1
+14002, 14, Kampung Ayer, no-image.jpg, 1, 1, 1
+14003, 14, Omar Ali Saifuddien Mosque, no-image.jpg, 1, 1, 1
+14004, 14, Jame' Asr Hassanil Bolkiah Mosque, no-image.jpg, 1, 1, 1
+14005, 14, Istana Nurul Iman, no-image.jpg, 1, 1, 1
+14006, 14, Billionth Barrel Monument, no-image.jpg, 1, 1, 1

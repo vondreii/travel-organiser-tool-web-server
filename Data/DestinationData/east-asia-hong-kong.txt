@@ -1,0 +1,4 @@
+33001, 33, Hong Kong Disneyland, no-image.jpg, 1, 1, 1
+33002, 33, Tian Tan Buddha, no-image.jpg, 1, 1, 1
+33003, 33, Lantau Island, no-image.jpg, 1, 1, 1
+33004, 33, Ocean Park, no-image.jpg, 1, 1, 1

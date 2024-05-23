@@ -1,0 +1,10 @@
+22001, 22, Manila, no-image.jpg, 1, 1, 1
+22002, 22, Quezon City, no-image.jpg, 1, 1, 1
+22003, 22, Pasay, no-image.jpg, 1, 1, 1
+22004, 22, Cavite City, no-image.jpg, 1, 1, 1
+22005, 22, Baguio, no-image.jpg, 1, 1, 1
+22006, 22, Caloocan, no-image.jpg, 1, 1, 1
+22007, 22, Vigan City, no-image.jpg, 1, 1, 1
+22008, 22, Tagaytay, no-image.jpg, 1, 1, 1
+22009, 22, Makati, no-image.jpg, 1, 1, 1
+22010, 22, Angeles City, no-image.jpg, 1, 1, 1

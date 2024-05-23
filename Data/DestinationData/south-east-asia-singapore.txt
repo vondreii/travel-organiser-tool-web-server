@@ -1,0 +1,4 @@
+23001, 23, Singapore, no-image.jpg, 1, 1, 1
+23002, 23, Marina Bay, no-image.jpg, 1, 1, 1
+23003, 23, Gardens by the Bay, no-image.jpg, 1, 1, 1
+23004, 23, Merlion Park waterfront, no-image.jpg, 1, 1, 1

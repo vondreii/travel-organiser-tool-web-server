@@ -1,0 +1,6 @@
+29001, 29, Seoul, no-image.jpg, 1, 1, 1
+29002, 29, Busan, no-image.jpg, 1, 1, 1
+29003, 29, Incheon, no-image.jpg, 1, 1, 1
+29004, 29, Daejeon, no-image.jpg, 1, 1, 1
+29005, 29, Gwangju, no-image.jpg, 1, 1, 1
+29006, 29, Gyeongbokgung Palace, no-image.jpg, 1, 1, 1

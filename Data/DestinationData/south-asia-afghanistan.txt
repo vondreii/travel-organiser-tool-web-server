@@ -1,0 +1,6 @@
+34001, 34, Kabul, no-image.jpg, 1, 1, 1
+34002, 34, Herat, no-image.jpg, 1, 1, 1
+34003, 34, Kandahar, no-image.jpg, 1, 1, 1
+34004, 34, Buddha of Bamyan, no-image.jpg, 1, 1, 1
+34005, 34, Darul Aman Palace, no-image.jpg, 1, 1, 1
+34006, 34, Babur Tomb, no-image.jpg, 1, 1, 1

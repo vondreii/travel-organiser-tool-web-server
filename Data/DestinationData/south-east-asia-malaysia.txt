@@ -1,0 +1,4 @@
+20001, 20, Federal Territory of Kuala Lumpur, no-image.jpg, 1, 1, 1
+20002, 20, George Town, no-image.jpg, 1, 1, 1
+20003, 20, Malacca, no-image.jpg, 1, 1, 1
+20004, 20, Batu Caves, no-image.jpg, 1, 1, 1
