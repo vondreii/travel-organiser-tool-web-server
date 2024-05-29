@@ -1,0 +1,6 @@
+48001, 48, Beirut, no-image.jpg, 1, 1, 1
+48002, 48, Tripoli, no-image.jpg, 1, 1, 1
+48003, 48, Sidon, no-image.jpg, 1, 1, 1
+48004, 48, Byblos, no-image.jpg, 1, 1, 1
+48005, 48, Zaituna Bay, no-image.jpg, 1, 1, 1
+48006, 48, Our Lady of Lebanon, no-image.jpg, 1, 1, 1

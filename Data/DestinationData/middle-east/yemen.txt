@@ -1,0 +1,4 @@
+55001, 55, Sanaa, no-image.jpg, 1, 1, 1
+55002, 55, Aden, no-image.jpg, 1, 1, 1
+55003, 55, Socotra, no-image.jpg, 1, 1, 1
+55004, 55, Shoab Beach, no-image.jpg, 1, 1, 1

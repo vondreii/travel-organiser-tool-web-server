@@ -1,0 +1,3 @@
+51001, 51, Doha, no-image.jpg, 1, 1, 1
+51002, 51, Souq Waqif, no-image.jpg, 1, 1, 1
+51003, 51, Katara Cultural Village, no-image.jpg, 1, 1, 1

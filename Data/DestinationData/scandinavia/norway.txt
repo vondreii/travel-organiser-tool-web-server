@@ -1,0 +1,6 @@
+57001, 57, Oslo, no-image.jpg, 1, 1, 1
+57002, 57, Bergen, no-image.jpg, 1, 1, 1
+57003, 57, Andalsnes, no-image.jpg, 1, 1, 1
+57004, 57, The Geiranger Fjord, no-image.jpg, 1, 1, 1
+57005, 57, Pulpit Rock, no-image.jpg, 1, 1, 1
+57006, 57, Polar Park, no-image.jpg, 1, 1, 1

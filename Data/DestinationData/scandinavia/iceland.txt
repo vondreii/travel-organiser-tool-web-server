@@ -1,0 +1,4 @@
+61001, 61, Reykjavik, no-image.jpg, 1, 1, 1
+61002, 61, Kopavogur, no-image.jpg, 1, 1, 1
+61003, 61, Blue Lagoon, no-image.jpg, 1, 1, 1
+61004, 61, Thingvellir National Park, no-image.jpg, 1, 1, 1

@@ -1,0 +1,6 @@
+44001, 44, Baghdad, no-image.jpg, 1, 1, 1
+44002, 44, Hillah, no-image.jpg, 1, 1, 1
+44003, 44, Mosul, no-image.jpg, 1, 1, 1
+44004, 44, Kut, no-image.jpg, 1, 1, 1
+44005, 44, Holy Shrine Of Imam Hussain, no-image.jpg, 1, 1, 1
+44006, 44, Citadel of Erbil, no-image.jpg, 1, 1, 1

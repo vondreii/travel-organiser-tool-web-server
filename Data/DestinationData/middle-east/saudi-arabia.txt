@@ -1,0 +1,5 @@
+52001, 52, Madinah, no-image.jpg, 1, 1, 1
+52002, 52, Riyadh, no-image.jpg, 1, 1, 1
+52003, 52, Jeddah, no-image.jpg, 1, 1, 1
+52004, 52, Mecca, no-image.jpg, 1, 1, 1
+52005, 52, Al Masjid an Nabawi, no-image.jpg, 1, 1, 1

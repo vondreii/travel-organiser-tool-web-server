@@ -1,0 +1,5 @@
+53001, 53, Damascus, no-image.jpg, 1, 1, 1
+53002, 53, Hama, no-image.jpg, 1, 1, 1
+53003, 53, Aleppo, no-image.jpg, 1, 1, 1
+53004, 53, Umayyad Mosque, no-image.jpg, 1, 1, 1
+53005, 53, Al-Azm Palace, no-image.jpg, 1, 1, 1

@@ -1,0 +1,4 @@
+56001, 56, Copenhagen, no-image.jpg, 1, 1, 1
+56002, 56, Odense, no-image.jpg, 1, 1, 1
+56003, 56, Rosenborg Castle, no-image.jpg, 1, 1, 1
+56004, 56, Christiansborg Palace, no-image.jpg, 1, 1, 1

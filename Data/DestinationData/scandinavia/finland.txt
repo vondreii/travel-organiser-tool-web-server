@@ -1,0 +1,4 @@
+60001, 60, Helsinki, no-image.jpg, 1, 1, 1
+60002, 60, Suomenlinna, no-image.jpg, 1, 1, 1
+60003, 60, Temppeliaukio Church, no-image.jpg, 1, 1, 1
+60004, 60, Oulanka National Park in Kuusamo, no-image.jpg, 1, 1, 1

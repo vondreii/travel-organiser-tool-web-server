@@ -1,0 +1,5 @@
+49001, 49, Muscat, no-image.jpg, 1, 1, 1
+49002, 49, Sur, no-image.jpg, 1, 1, 1
+49003, 49, Nizwa, no-image.jpg, 1, 1, 1
+49004, 49, Salalah, no-image.jpg, 1, 1, 1
+49005, 49, Nizwa Fort, no-image.jpg, 1, 1, 1

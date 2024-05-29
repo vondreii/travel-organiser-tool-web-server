@@ -15,52 +15,99 @@ namespace TravelOrganiserTool.Data
             var destinations = new List<Destination>();
 
             // Oceania
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-australia.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-cook-islands.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-fiji.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-kiribati.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-marshall-islands.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-micronesia.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-nauru.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-new-zealand.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-papua-new-guinea.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-samoa.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-solomon-islands.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-tonga.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania-vanuatu.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania/australia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania/cook-islands.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania/fiji.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania/kiribati.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania/marshall-islands.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania/micronesia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania/nauru.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania/new-zealand.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania/papua-new-guinea.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania/samoa.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania/solomon-islands.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania/tonga.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/oceania/vanuatu.txt"));
 
             // South East Asia
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-brunei.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-burma.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-cambodia.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-indonesia.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-laos.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-malaysia.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-philippines.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-singapore.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-thailand.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-timor-leste.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia-vietnam.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia/brunei.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia/burma.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia/cambodia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia/indonesia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia/laos.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia/malaysia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia/philippines.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia/singapore.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia/thailand.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia/timor-leste.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-east-asia/vietnam.txt"));
 
             // East Asia
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-china.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-hong-kong.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-japan.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-macao.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-mongolia.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-north-korea.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-south-korea.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia-taiwan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia/china.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia/hong-kong.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia/japan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia/macao.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia/mongolia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia/north-korea.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia/south-korea.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/east-asia/taiwan.txt"));
 
             // South Asia
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-afghanistan.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-bangladesh.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-bhutan.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-india.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-maldives.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-nepal.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-pakistan.txt"));
-            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia-sri-lanka.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia/afghanistan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia/bangladesh.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia/bhutan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia/india.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia/maldives.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia/nepal.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia/pakistan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-asia/sri-lanka.txt"));
+
+            // Middle East
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/bahrain.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/iran.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/iraq.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/israel.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/jordan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/kuwait.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/lebanon.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/oman.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/palestine.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/qatar.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/saudi-arabia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/syria.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/united-arab-emirates.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/middle-east/yemen.txt"));
+
+            // Scandinavia
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/scandinavia/denmark.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/scandinavia/faroe-islands.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/scandinavia/finland.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/scandinavia/greenland.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/scandinavia/iceland.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/scandinavia/norway.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/scandinavia/sweden.txt"));
+
+            // United Kingdom and Western Europe
+
+            // Central Europe
+
+            // Southern Europe
+
+            // Eastern Europe and Former USSR
+
+            // Northern Africa
+
+            // Subsaharan Africa
+
+            // North America
+
+            // Central America
+
+            // Caribbean
+
+            // South America
+
+            // South Pole
 
             modelBuilder.Entity<Destination>().HasData(destinations.ToArray());
 

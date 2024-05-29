@@ -1,0 +1,2 @@
+62001, 62, Nuuk, no-image.jpg, 1, 1, 1
+62002, 62, Northeast Greenland National Park, no-image.jpg, 1, 1, 1
