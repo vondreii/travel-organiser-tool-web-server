@@ -88,26 +88,83 @@ namespace TravelOrganiserTool.Data
             destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/scandinavia/sweden.txt"));
 
             // United Kingdom and Western Europe
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/united-kingdom-and-western-europe/england.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/united-kingdom-and-western-europe/north-ireland.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/united-kingdom-and-western-europe/republic-of-ireland.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/united-kingdom-and-western-europe/scotland.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/united-kingdom-and-western-europe/wales.txt"));
 
             // Central Europe
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/austria.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/belgium.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/bulgaria.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/czech-republic.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/france.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/germany.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/hungary.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/liechtenstein.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/luxembourg.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/netherlands.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/poland.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/romania.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/serbia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/slovakia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-europe/switzerland.txt"));
 
             // Southern Europe
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/albania.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/andorra.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/bosnia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/croatia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/cyprus.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/greece.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/italy.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/kosovo.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/malta.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/monaco.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/montenegro.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/north-macedonia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/portugal.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/slovenia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/southern-europe/spain.txt"));
 
             // Eastern Europe and Former USSR
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/armenia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/azerbaijan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/belarus.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/estonia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/georgia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/kazakhstan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/kyrgyzstan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/latvia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/lithuania.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/moldova.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/russia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/tajikistan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/turkmenistan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/ukraine.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/uzbekistan.txt"));
 
             // Northern Africa
+            // destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/northern-africa/"));
 
             // Subsaharan Africa
+            // destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/"));
 
             // North America
+            // destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/north-america/"));
 
             // Central America
+            // destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-america/"));
 
             // Caribbean
+            // destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/caribbean/"));
 
             // South America
+            // destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-america/"));
 
             // South Pole
+            // destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/south-pole/"));
 
             modelBuilder.Entity<Destination>().HasData(destinations.ToArray());
 

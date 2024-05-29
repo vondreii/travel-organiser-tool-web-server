@@ -1,0 +1,7 @@
+98001, 98, Barcelona, no-image.jpg, 1, 1, 1
+98002, 98, Seville, no-image.jpg, 1, 1, 1
+98003, 98, Madrid, no-image.jpg, 1, 1, 1
+98004, 98, Valencia, no-image.jpg, 1, 1, 1
+98005, 98, Bilbao, no-image.jpg, 1, 1, 1
+98006, 98, The Alhambra, no-image.jpg, 1, 1, 1
+98007, 98, Granada, no-image.jpg, 1, 1, 1

@@ -1,0 +1,8 @@
+109001, 109, Moscow, no-image.jpg, 1, 1, 1
+109002, 109, Saint Petersburg, no-image.jpg, 1, 1, 1
+109003, 109, Kazan, no-image.jpg, 1, 1, 1
+109004, 109, Red Square, no-image.jpg, 1, 1, 1
+109005, 109, Lake Baikal, no-image.jpg, 1, 1, 1
+109006, 109, Altai Mountains, no-image.jpg, 1, 1, 1
+109007, 109, Mount Elbrus, no-image.jpg, 1, 1, 1
+109008, 109, Kungur Ice Cave, no-image.jpg, 1, 1, 1

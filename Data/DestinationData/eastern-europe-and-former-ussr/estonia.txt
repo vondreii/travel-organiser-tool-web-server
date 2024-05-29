@@ -1,0 +1,4 @@
+102001, 102, Tallinn, no-image.jpg, 1, 1, 1
+102002, 102, Narva, no-image.jpg, 1, 1, 1
+102003, 102, Rakvere, no-image.jpg, 1, 1, 1
+102004, 102, Viru Gate, no-image.jpg, 1, 1, 1

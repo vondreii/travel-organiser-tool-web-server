@@ -1,0 +1,4 @@
+96001, 96, Lisbon, no-image.jpg, 1, 1, 1
+96002, 96, Porto, no-image.jpg, 1, 1, 1
+96003, 96, Torre de Belem, no-image.jpg, 1, 1, 1
+96004, 96, Ria Formosa Nature Park, no-image.jpg, 1, 1, 1

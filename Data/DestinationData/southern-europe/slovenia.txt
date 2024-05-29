@@ -1,0 +1,5 @@
+97001, 97, Ljubljana, no-image.jpg, 1, 1, 1
+97002, 97, Ptuj, no-image.jpg, 1, 1, 1
+97003, 97, Predjama Castle, no-image.jpg, 1, 1, 1
+97004, 97, Dragon Bridge, no-image.jpg, 1, 1, 1
+97005, 97, Bled Castle, no-image.jpg, 1, 1, 1

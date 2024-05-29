@@ -1,0 +1,3 @@
+94001, 94, Podgorica, no-image.jpg, 1, 1, 1
+94002, 94, Budva, no-image.jpg, 1, 1, 1
+94003, 94, Ulcinj, no-image.jpg, 1, 1, 1

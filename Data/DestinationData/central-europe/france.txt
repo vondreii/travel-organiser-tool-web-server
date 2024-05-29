@@ -1,0 +1,5 @@
+72001, 72, Paris, no-image.jpg, 1, 1, 1
+72002, 72, Marseille, no-image.jpg, 1, 1, 1
+72003, 72, Eiffel Tower, no-image.jpg, 1, 1, 1
+72004, 72, Arc de Triomphe, no-image.jpg, 1, 1, 1
+72005, 72, Nice, no-image.jpg, 1, 1, 1

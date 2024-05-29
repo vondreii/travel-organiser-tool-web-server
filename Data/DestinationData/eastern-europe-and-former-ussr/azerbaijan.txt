@@ -1,0 +1,2 @@
+100001, 100, Baku, no-image.jpg, 1, 1, 1
+100002, 100, Palace of the Shirvanshahs, no-image.jpg, 1, 1, 1

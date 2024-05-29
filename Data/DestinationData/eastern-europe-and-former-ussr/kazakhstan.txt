@@ -1,0 +1,3 @@
+104001, 104, Astana, no-image.jpg, 1, 1, 1
+104002, 104, Almaty, no-image.jpg, 1, 1, 1
+104003, 104, Aktobe, no-image.jpg, 1, 1, 1

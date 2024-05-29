@@ -1,0 +1,4 @@
+79001, 79, Warsaw, no-image.jpg, 1, 1, 1
+79002, 79, Krakow, no-image.jpg, 1, 1, 1
+79003, 79, St Mary's Basilica, no-image.jpg, 1, 1, 1
+79004, 79, Malbork Castle, no-image.jpg, 1, 1, 1

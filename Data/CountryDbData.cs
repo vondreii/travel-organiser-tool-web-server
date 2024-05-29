@@ -99,7 +99,7 @@ namespace TravelOrganiserTool.Data
                 new Country { Id = 73, RegionID = 8, Name = "Germany",  ImageFilename = "germany.jpg" },
                 new Country { Id = 74, RegionID = 8, Name = "Hungary", ImageFilename = "no-image.jpg" },
                 new Country { Id = 75, RegionID = 8, Name = "Liechtenstein", ImageFilename = "no-image.jpg" },
-                new Country { Id = 76, RegionID = 8, Name = "Lithuania", ImageFilename = "no-image.jpg" },
+                // new Country { Id = 76, RegionID = 8, Name = "Lithuania", ImageFilename = "no-image.jpg" },
                 new Country { Id = 77, RegionID = 8, Name = "Luxembourg", ImageFilename = "no-image.jpg" },
                 new Country { Id = 78, RegionID = 8, Name = "Netherlands", ImageFilename = "no-image.jpg" },
                 new Country { Id = 79, RegionID = 8, Name = "Poland",  ImageFilename = "no-image.jpg" },

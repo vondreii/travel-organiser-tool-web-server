@@ -1,0 +1,2 @@
+86001, 86, Sarajevo, no-image.jpg, 1, 1, 1
+86002, 86, Perucica, no-image.jpg, 1, 1, 1

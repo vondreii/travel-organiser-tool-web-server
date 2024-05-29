@@ -1,0 +1,4 @@
+108001, 108, Soroca, no-image.jpg, 1, 1, 1
+108002, 108, Orhei, no-image.jpg, 1, 1, 1
+108003, 108, Curchi Monastery, no-image.jpg, 1, 1, 1
+108004, 108, Codru, no-image.jpg, 1, 1, 1

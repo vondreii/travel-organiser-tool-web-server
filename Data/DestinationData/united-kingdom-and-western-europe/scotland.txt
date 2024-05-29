@@ -1,0 +1,5 @@
+64001, 64, Edinburgh, no-image.jpg, 1, 1, 1
+64002, 64, Glasgow, no-image.jpg, 1, 1, 1
+64003, 64, Aberdeen, no-image.jpg, 1, 1, 1
+64004, 64, Edinburgh Castle, no-image.jpg, 1, 1, 1
+64005, 64, Balmoral Castle, no-image.jpg, 1, 1, 1

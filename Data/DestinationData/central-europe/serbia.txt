@@ -1,0 +1,6 @@
+81001, 81, Belgrade, no-image.jpg, 1, 1, 1
+81002, 81, Sjenica, no-image.jpg, 1, 1, 1
+81003, 81, Belgrade Fortress, no-image.jpg, 1, 1, 1
+81004, 81, The Temple of Saint Sava, no-image.jpg, 1, 1, 1
+81005, 81, Tara, no-image.jpg, 1, 1, 1
+81006, 81, Kopaonik, no-image.jpg, 1, 1, 1

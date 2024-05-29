@@ -1,0 +1,5 @@
+82001, 82, Bratislava, no-image.jpg, 1, 1, 1
+82002, 82, Bardejov, no-image.jpg, 1, 1, 1
+82003, 82, Poprad, no-image.jpg, 1, 1, 1
+82004, 82, Low Tatras National Park, no-image.jpg, 1, 1, 1
+82005, 82, Tatra Mountains, no-image.jpg, 1, 1, 1

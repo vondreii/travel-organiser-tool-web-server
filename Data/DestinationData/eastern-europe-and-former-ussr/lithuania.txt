@@ -1,0 +1,5 @@
+107001, 107, Vilnius, no-image.jpg, 1, 1, 1
+107002, 107, Kaunas, no-image.jpg, 1, 1, 1
+107003, 107, Klaipeda, no-image.jpg, 1, 1, 1
+107004, 107, Trakai Island Castle, no-image.jpg, 1, 1, 1
+107005, 107, Hill of Crosses, no-image.jpg, 1, 1, 1

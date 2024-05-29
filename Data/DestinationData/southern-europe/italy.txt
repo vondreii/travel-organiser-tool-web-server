@@ -1,0 +1,10 @@
+90001, 90, Rome, no-image.jpg, 1, 1, 1
+90002, 90, Florence, no-image.jpg, 1, 1, 1
+90003, 90, Venice, no-image.jpg, 1, 1, 1
+90004, 90, Naples, no-image.jpg, 1, 1, 1
+90005, 90, Milan, no-image.jpg, 1, 1, 1
+90006, 90, Verona, no-image.jpg, 1, 1, 1
+90007, 90, Colosseum, no-image.jpg, 1, 1, 1
+90008, 90, Mount Etna, no-image.jpg, 1, 1, 1
+90009, 90, Lake Garda, no-image.jpg, 1, 1, 1
+90010, 90, Parco Forlanini, no-image.jpg, 1, 1, 1

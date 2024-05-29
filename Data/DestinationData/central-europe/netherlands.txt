@@ -1,0 +1,5 @@
+78001, 78, Amsterdam, no-image.jpg, 1, 1, 1
+78002, 78, Rotterdam, no-image.jpg, 1, 1, 1
+78003, 78, The Hague, no-image.jpg, 1, 1, 1
+78004, 78, Keukenhof, no-image.jpg, 1, 1, 1
+78005, 78, Arboretum Trompenburg, no-image.jpg, 1, 1, 1

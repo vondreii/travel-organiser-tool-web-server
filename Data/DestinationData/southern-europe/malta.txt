@@ -1,0 +1,3 @@
+92001, 92, Valletta, no-image.jpg, 1, 1, 1
+92002, 92, Popeye Village, no-image.jpg, 1, 1, 1
+92003, 92, St. John's Co-Cathedral, no-image.jpg, 1, 1, 1

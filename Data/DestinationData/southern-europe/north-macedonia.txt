@@ -1,0 +1,3 @@
+95001, 95, Prilep, no-image.jpg, 1, 1, 1
+95002, 95, Kriva Palanka, no-image.jpg, 1, 1, 1
+95003, 95, Stone Bridge, no-image.jpg, 1, 1, 1

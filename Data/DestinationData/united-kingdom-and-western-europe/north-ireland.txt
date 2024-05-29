@@ -1,0 +1,5 @@
+66001, 66, Belfast, no-image.jpg, 1, 1, 1
+66002, 66, Tully Castle, no-image.jpg, 1, 1, 1
+66003, 66, Titanic Belfast, no-image.jpg, 1, 1, 1
+66004, 66, Ballydugan Medieval Settlement, no-image.jpg, 1, 1, 1
+66005, 66, Giant's Causeway, no-image.jpg, 1, 1, 1
