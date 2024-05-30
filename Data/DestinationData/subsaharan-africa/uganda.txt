@@ -1,0 +1,2 @@
+165001, 165, Kampala, no-image.jpg, 1, 1, 1
+165002, 165, Queen Elizabeth National Park, no-image.jpg, 1, 1, 1

@@ -1,0 +1,4 @@
+167001, 167, Harare, no-image.jpg, 1, 1, 1
+167002, 167, Victoria Falls Bridge, no-image.jpg, 1, 1, 1
+167003, 167, Worlds View, no-image.jpg, 1, 1, 1
+167004, 167, Nesbitt Castle, no-image.jpg, 1, 1, 1

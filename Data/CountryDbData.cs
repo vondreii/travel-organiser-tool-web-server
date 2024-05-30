@@ -186,7 +186,7 @@ namespace TravelOrganiserTool.Data
                 new Country { Id = 152, RegionID = 11, Name = "Niger", ImageFilename = "no-image.jpg" },
                 new Country { Id = 153, RegionID = 11, Name = "Nigeria", ImageFilename = "nigeria.jpg" },
                 new Country { Id = 154, RegionID = 11, Name = "Rwanda", ImageFilename = "rwanda.jpg" },
-                new Country { Id = 155, RegionID = 11, Name = "Sao Tome and Príncipe", ImageFilename = "no-image.jpg" },
+                new Country { Id = 155, RegionID = 11, Name = "Sao Tome and Principe", ImageFilename = "no-image.jpg" },
                 new Country { Id = 156, RegionID = 11, Name = "Senegal", ImageFilename = "no-image.jpg" },
                 new Country { Id = 157, RegionID = 11, Name = "Seychelles", ImageFilename = "no-image.jpg" },
                 new Country { Id = 158, RegionID = 11, Name = "Sierra Leone", ImageFilename = "no-image.jpg" },

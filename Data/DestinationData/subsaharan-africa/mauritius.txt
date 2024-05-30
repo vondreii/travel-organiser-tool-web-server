@@ -1,0 +1,2 @@
+149001, 149, Port Louis, no-image.jpg, 1, 1, 1
+149002, 149, Crystal Rock, no-image.jpg, 1, 1, 1

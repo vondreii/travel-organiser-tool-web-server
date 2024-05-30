@@ -1,0 +1,2 @@
+127001, 127, Bangui, no-image.jpg, 1, 1, 1
+127002, 127, Chinko Nature Reserve, no-image.jpg, 1, 1, 1

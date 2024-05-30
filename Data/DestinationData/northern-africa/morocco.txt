@@ -1,0 +1,3 @@
+117001, 117, Fes, no-image.jpg, 1, 1, 1
+117002, 117, Marrakesh, no-image.jpg, 1, 1, 1
+117003, 117, Volubilis, no-image.jpg, 1, 1, 1

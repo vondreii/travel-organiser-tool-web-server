@@ -1,0 +1,2 @@
+116001, 116, Tripoli, no-image.jpg, 1, 1, 1
+116002, 116, Arc of Marcus Aurelius, no-image.jpg, 1, 1, 1

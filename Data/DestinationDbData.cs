@@ -146,13 +146,67 @@ namespace TravelOrganiserTool.Data
             destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/eastern-europe-and-former-ussr/uzbekistan.txt"));
 
             // Northern Africa
-            // destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/northern-africa/"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/northern-africa/algeria.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/northern-africa/egypt.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/northern-africa/libya.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/northern-africa/morocco.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/northern-africa/sudan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/northern-africa/tunisia.txt"));
 
             // Subsaharan Africa
-            // destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/angola.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/benin.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/botswana.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/burkina-faso.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/burundi.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/cameroon.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/cape-verde.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/central-african-republic.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/chad.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/comoros.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/democratic-republic-of-the-congo.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/djibouti.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/equatorial-guinea.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/eritrea.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/eswatini.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/ethiopia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/gabon.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/gambia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/ghana.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/guinea.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/guinea-bissau.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/ivory-coast.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/kenya.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/lesotho.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/liberia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/madagascar.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/malawi.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/mali.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/mauritania.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/mauritius.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/mozambique.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/namibia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/niger.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/nigeria.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/rwanda.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/sao-tome-and-principe.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/senegal.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/seychelles.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/sierra-leone.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/somalia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/south-africa.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/south-sudan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/sudan.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/tanzania.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/togo.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/uganda.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/zambia.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/subsaharan-africa/zimbabwe.txt"));
 
             // North America
-            // destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/north-america/"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/north-america/canada.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/north-america/mexico.txt"));
+            destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/north-america/united-states.txt"));
 
             // Central America
             // destinations.AddRange(ReadDestinationsFromFile("Data/DestinationData/central-america/"));

@@ -1,0 +1,2 @@
+126001, 126, Praia, no-image.jpg, 1, 1, 1
+126002, 126, The Pier of Santa Maria, no-image.jpg, 1, 1, 1

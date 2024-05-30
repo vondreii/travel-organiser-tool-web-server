@@ -1,0 +1,2 @@
+141001, 141, Abidjan, no-image.jpg, 1, 1, 1
+141002, 141, Bouake, no-image.jpg, 1, 1, 1

@@ -1,0 +1,3 @@
+146001, 146, Lilongwe, no-image.jpg, 1, 1, 1
+146002, 146, Mount Mulanje, no-image.jpg, 1, 1, 1
+146003, 146, Lake Malawi, no-image.jpg, 1, 1, 1

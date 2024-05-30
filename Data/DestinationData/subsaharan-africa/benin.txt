@@ -1,0 +1,2 @@
+121001, 121, Cotonou, no-image.jpg, 1, 1, 1
+121002, 121, Grande Mosquee de Porto Novo, no-image.jpg, 1, 1, 1

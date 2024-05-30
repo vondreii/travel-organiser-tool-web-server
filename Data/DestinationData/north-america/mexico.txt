@@ -1,0 +1,4 @@
+169001, 169, Mexico City, no-image.jpg, 1, 1, 1
+169002, 169, Monterrey, no-image.jpg, 1, 1, 1
+169003, 169, Tulum, no-image.jpg, 1, 1, 1
+169004, 169, Lake Chapala, no-image.jpg, 1, 1, 1

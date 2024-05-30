@@ -1,0 +1,3 @@
+125001, 125, Douala, no-image.jpg, 1, 1, 1
+125002, 125, Yaounde, no-image.jpg, 1, 1, 1
+125003, 125, Garoua, no-image.jpg, 1, 1, 1
