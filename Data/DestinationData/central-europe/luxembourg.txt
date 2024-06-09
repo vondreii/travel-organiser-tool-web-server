@@ -1,3 +1,0 @@
-77001, 77, Luxembourg, no-image.jpg, 1, 1, 1
-77002, 77, Vianden, no-image.jpg, 1, 1, 1
-77003, 77, Vianden Castle, no-image.jpg, 1, 1, 1

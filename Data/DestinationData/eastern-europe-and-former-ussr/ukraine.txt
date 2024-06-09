@@ -1,5 +1,0 @@
-112001, 112, Donetsk, no-image.jpg, 1, 1, 1
-112002, 112, Lviv, no-image.jpg, 1, 1, 1
-112003, 112, Kyiv, no-image.jpg, 1, 1, 1
-112004, 112, Dniester Canyon, no-image.jpg, 1, 1, 1
-112005, 112, Oleshky Sands, no-image.jpg, 1, 1, 1

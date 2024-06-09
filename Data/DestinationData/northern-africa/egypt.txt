@@ -1,5 +1,0 @@
-115001, 115, Cairo, no-image.jpg, 1, 1, 1
-115002, 115, Alexandria, no-image.jpg, 1, 1, 1
-115003, 115, Giza, no-image.jpg, 1, 1, 1
-115004, 115, Great Sphinx of Giza, no-image.jpg, 1, 1, 1
-115005, 115, Egyptian pyramids, no-image.jpg, 1, 1, 1

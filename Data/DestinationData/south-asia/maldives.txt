@@ -1,5 +1,0 @@
-39001, 39, Male, no-image.jpg, 1, 1, 1
-39002, 39, Addu City, no-image.jpg, 1, 1, 1
-39003, 39, Republic Square, no-image.jpg, 1, 1, 1
-39004, 39, Tsunami Monument, no-image.jpg, 1, 1, 1
-39005, 39, Veligandu Maldives Resort Island, no-image.jpg, 1, 1, 1

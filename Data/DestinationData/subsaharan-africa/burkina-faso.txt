@@ -1,3 +1,0 @@
-123001, 123, Banfora, no-image.jpg, 1, 1, 1
-123002, 123, Ouagadougou, no-image.jpg, 1, 1, 1
-123003, 123, Singou Reserve, no-image.jpg, 1, 1, 1

@@ -1,6 +1,0 @@
-63001, 63, London, no-image.jpg, 1, 1, 1
-63002, 63, Bristol, no-image.jpg, 1, 1, 1
-63003, 63, Birmingham, no-image.jpg, 1, 1, 1
-63004, 63, Tower Bridge, no-image.jpg, 1, 1, 1
-63005, 63, Buckingham Palace, no-image.jpg, 1, 1, 1
-63006, 63, Seven Sisters, no-image.jpg, 1, 1, 1

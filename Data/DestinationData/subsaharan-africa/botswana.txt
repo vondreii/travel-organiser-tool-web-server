@@ -1,3 +1,0 @@
-122001, 122, Gaborone, no-image.jpg, 1, 1, 1
-122002, 122, Serowe, no-image.jpg, 1, 1, 1
-122003, 122, Kanye, no-image.jpg, 1, 1, 1

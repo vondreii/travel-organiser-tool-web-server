@@ -1,7 +1,0 @@
-37001, 37, Mumbai, no-image.jpg, 1, 1, 1
-37002, 37, Kolkata, no-image.jpg, 1, 1, 1
-37003, 37, Chennai, no-image.jpg, 1, 1, 1
-37004, 37, Hyderabad, no-image.jpg, 1, 1, 1
-37005, 37, New Delhi, no-image.jpg, 1, 1, 1
-37006, 37, Taj Mahal, no-image.jpg, 1, 1, 1
-37007, 37, Meenakshi Amman Temple, no-image.jpg, 1, 1, 1

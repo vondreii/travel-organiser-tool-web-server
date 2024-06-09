@@ -1,2 +1,0 @@
-93001, 93, Monaco City, no-image.jpg, 1, 1, 1
-93002, 93, Prince's Palace of Monaco, no-image.jpg, 1, 1, 1

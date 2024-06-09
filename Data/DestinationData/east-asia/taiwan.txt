@@ -1,6 +1,0 @@
-31001, 31, National Palace Museum, no-image.jpg, 1, 1, 1
-31002, 31, Taipei, no-image.jpg, 1, 1, 1
-31003, 31, Taichung, no-image.jpg, 1, 1, 1
-31004, 31, Yushan, no-image.jpg, 1, 1, 1
-31005, 31, Lungshan Temple, no-image.jpg, 1, 1, 1
-31006, 31, Fo Guang Shan Buddha Museum, no-image.jpg, 1, 1, 1

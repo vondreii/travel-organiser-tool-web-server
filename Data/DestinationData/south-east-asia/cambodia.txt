@@ -1,5 +1,0 @@
-16001, 16, Krong Battambang, no-image.jpg, 1, 1, 1
-16002, 16, Phnom Penh, no-image.jpg, 1, 1, 1
-16003, 16, Krong Siem Reap, no-image.jpg, 1, 1, 1
-16004, 16, Angkor Wat, no-image.jpg, 1, 1, 1
-16005, 16, Choeung Ek, no-image.jpg, 1, 1, 1

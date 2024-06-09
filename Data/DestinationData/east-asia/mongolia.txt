@@ -1,5 +1,0 @@
-28001, 28, Ulaanbaatar, no-image.jpg, 1, 1, 1
-28002, 28, Choibalsan, no-image.jpg, 1, 1, 1
-28003, 28, Erdenet, no-image.jpg, 1, 1, 1
-28004, 28, Genghis Khan Statue, no-image.jpg, 1, 1, 1
-28005, 28, Amarbayasgalant Monastery, no-image.jpg, 1, 1, 1

@@ -1,4 +1,0 @@
-106001, 106, Riga, no-image.jpg, 1, 1, 1
-106002, 106, Jurmala, no-image.jpg, 1, 1, 1
-106003, 106, Jelgava, no-image.jpg, 1, 1, 1
-106004, 106, Dobele, no-image.jpg, 1, 1, 1

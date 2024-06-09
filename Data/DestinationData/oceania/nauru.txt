@@ -1,4 +1,0 @@
-7001, 7, Meneng Terrace, no-image.jpg, 1, 1, 1
-7002, 7, Yaren, no-image.jpg, 1, 1, 1
-7003, 7, Yangor, no-image.jpg, 1, 1, 1
-7004, 7, Ronave, no-image.jpg, 1, 1, 1

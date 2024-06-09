@@ -1,4 +1,0 @@
-59001, 59, Torshavn, no-image.jpg, 1, 1, 1
-59002, 59, Hoyvik, no-image.jpg, 1, 1, 1
-59003, 59, Mulafossur Waterfall, no-image.jpg, 1, 1, 1
-59004, 59, The Nordic House, no-image.jpg, 1, 1, 1

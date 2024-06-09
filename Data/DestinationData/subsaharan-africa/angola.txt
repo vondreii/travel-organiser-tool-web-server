@@ -1,2 +1,0 @@
-120001, 120, Luanda, no-image.jpg, 1, 1, 1
-120002, 120, Bufalo Partial Reserve, no-image.jpg, 1, 1, 1

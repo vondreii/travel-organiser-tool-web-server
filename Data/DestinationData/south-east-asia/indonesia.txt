@@ -1,6 +1,0 @@
-18001, 18, Jakarta, no-image.jpg, 1, 1, 1
-18002, 18, Medan, no-image.jpg, 1, 1, 1
-18003, 18, Padang, no-image.jpg, 1, 1, 1
-18004, 18, Surabaya, no-image.jpg, 1, 1, 1
-18005, 18, Makassar, no-image.jpg, 1, 1, 1
-18006, 18, Sacred Monkey Forest Sanctuary, no-image.jpg, 1, 1, 1

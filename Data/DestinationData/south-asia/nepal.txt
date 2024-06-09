@@ -1,6 +1,0 @@
-38001, 38, Kathmandu, no-image.jpg, 1, 1, 1
-38002, 38, Pokhara, no-image.jpg, 1, 1, 1
-38003, 38, Janakpurdham, no-image.jpg, 1, 1, 1
-38004, 38, Pashupatinath Temple, no-image.jpg, 1, 1, 1
-38005, 38, Mount Everest, no-image.jpg, 1, 1, 1
-38006, 38, Manaslu, no-image.jpg, 1, 1, 1

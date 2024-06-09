@@ -1,5 +1,0 @@
-65001, 65, Cardiff, no-image.jpg, 1, 1, 1
-65002, 65, Newport, no-image.jpg, 1, 1, 1
-65003, 65, St Davids, no-image.jpg, 1, 1, 1
-65004, 65, Conwy Castle, no-image.jpg, 1, 1, 1
-65005, 65, Pembroke Castle, no-image.jpg, 1, 1, 1

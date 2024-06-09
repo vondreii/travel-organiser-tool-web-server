@@ -1,5 +1,0 @@
-80001, 80, Bucharest, no-image.jpg, 1, 1, 1
-80002, 80, Brasov, no-image.jpg, 1, 1, 1
-80003, 80, Danube Delta, no-image.jpg, 1, 1, 1
-80004, 80, Piatra Craiului Mountains, no-image.jpg, 1, 1, 1
-80005, 80, Bigar Cascade Falls, no-image.jpg, 1, 1, 1

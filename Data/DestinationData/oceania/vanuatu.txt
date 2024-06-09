@@ -1,6 +1,0 @@
-13001, 13, Lakatoro, no-image.jpg, 1, 1, 1
-13002, 13, Port Vila, no-image.jpg, 1, 1, 1
-13003, 13, Mount Yasur, no-image.jpg, 1, 1, 1
-13004, 13, Blue Lagoon, no-image.jpg, 1, 1, 1
-13005, 13, Mystery Island, no-image.jpg, 1, 1, 1
-13006, 13, Mele Cascades, no-image.jpg, 1, 1, 1

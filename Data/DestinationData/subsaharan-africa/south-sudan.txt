@@ -1,2 +1,0 @@
-161001, 161, Juba, no-image.jpg, 1, 1, 1
-161002, 161, White Nile, no-image.jpg, 1, 1, 1

@@ -1,4 +1,0 @@
-45001, 45, Jerusalem, no-image.jpg, 1, 1, 1
-45002, 45, Masada National Park, no-image.jpg, 1, 1, 1
-45003, 45, Church of the Holy Sepulchre, no-image.jpg, 1, 1, 1
-45004, 45, Baha'i Garden Haifa, no-image.jpg, 1, 1, 1

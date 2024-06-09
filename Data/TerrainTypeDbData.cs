@@ -8,7 +8,7 @@ namespace TravelOrganiserTool.Data
         public static void Populate(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<TerrainType>().HasData(
-                new TerrainType { Id = 1, Name = "Major Cities" },
+                new TerrainType { Id = 1, Name = "Major City" },
                 new TerrainType { Id = 2, Name = "Desert" },
                 new TerrainType { Id = 3, Name = "Forest" },
                 new TerrainType { Id = 4, Name = "Cliffs" },

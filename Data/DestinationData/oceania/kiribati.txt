@@ -1,5 +1,0 @@
-4001, 4, Tarawa, no-image.jpg, 1, 1, 1
-4002, 4, Kiritimati, no-image.jpg, 1, 1, 1
-4003, 4, Tabuaeran, no-image.jpg, 1, 1, 1
-4004, 4, Nikumaroro Island, no-image.jpg, 1, 1, 1
-4005, 4, Kanton Island, no-image.jpg, 1, 1, 1

@@ -1,6 +1,0 @@
-35001, 35, Dhaka, no-image.jpg, 1, 1, 1
-35002, 35, Khulna, no-image.jpg, 1, 1, 1
-35003, 35, Mymensingh, no-image.jpg, 1, 1, 1
-35004, 35, Sylhet, no-image.jpg, 1, 1, 1
-35005, 35, Chittagong, no-image.jpg, 1, 1, 1
-35006, 35, Lalbagh Fort, no-image.jpg, 1, 1, 1

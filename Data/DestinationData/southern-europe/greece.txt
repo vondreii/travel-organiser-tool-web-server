@@ -1,8 +1,0 @@
-89001, 89, Athens, no-image.jpg, 1, 1, 1
-89002, 89, Rhodes, no-image.jpg, 1, 1, 1
-89003, 89, Nafplio, no-image.jpg, 1, 1, 1
-89004, 89, Chania, no-image.jpg, 1, 1, 1
-89005, 89, Lake Beletsi, no-image.jpg, 1, 1, 1
-89006, 89, Mount Olympus, no-image.jpg, 1, 1, 1
-89007, 89, Balos Lagoon, no-image.jpg, 1, 1, 1
-89008, 89, Elafonissi Beach, no-image.jpg, 1, 1, 1

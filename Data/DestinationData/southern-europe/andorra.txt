@@ -1,2 +1,0 @@
-85001, 85, Andorra la Vella, no-image.jpg, 1, 1, 1
-85002, 85, El Pas de la Casa, no-image.jpg, 1, 1, 1

@@ -1,3 +1,0 @@
-71001, 71, Prague, no-image.jpg, 1, 1, 1
-71002, 71, Karlovy Vary, no-image.jpg, 1, 1, 1
-71003, 71, Bohemian Switzerland National Park, no-image.jpg, 1, 1, 1

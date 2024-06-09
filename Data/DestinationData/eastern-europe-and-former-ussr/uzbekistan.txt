@@ -1,3 +1,0 @@
-113001, 113, Tashkent, no-image.jpg, 1, 1, 1
-113002, 113, Samarkand, no-image.jpg, 1, 1, 1
-113003, 113, Registan Square, no-image.jpg, 1, 1, 1

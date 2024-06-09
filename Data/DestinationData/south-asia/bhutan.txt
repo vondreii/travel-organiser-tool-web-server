@@ -1,6 +1,0 @@
-36001, 36, Thimphu, no-image.jpg, 1, 1, 1
-36002, 36, Paro, no-image.jpg, 1, 1, 1
-36003, 36, Punakha, no-image.jpg, 1, 1, 1
-36004, 36, Wangdue Phodrang, no-image.jpg, 1, 1, 1
-36005, 36, Jakar, no-image.jpg, 1, 1, 1
-36006, 36, National Memorial Chhorten, no-image.jpg, 1, 1, 1

@@ -1,3 +1,0 @@
-84001, 84, Berat, no-image.jpg, 1, 1, 1
-84002, 84, Gjirokaster Castle, no-image.jpg, 1, 1, 1
-84003, 84, Mount Korab, no-image.jpg, 1, 1, 1

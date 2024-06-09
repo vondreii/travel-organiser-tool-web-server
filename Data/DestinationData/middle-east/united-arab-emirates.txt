@@ -1,5 +1,0 @@
-54001, 54, Dubai, no-image.jpg, 1, 1, 1
-54002, 54, Abu Dhabi, no-image.jpg, 1, 1, 1
-54003, 54, Sharjah, no-image.jpg, 1, 1, 1
-54004, 54, Burj Khalifa, no-image.jpg, 1, 1, 1
-54005, 54, Moreeb Dune, no-image.jpg, 1, 1, 1

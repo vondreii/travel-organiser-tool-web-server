@@ -1,5 +1,0 @@
-142001, 142, Nairobi, no-image.jpg, 1, 1, 1
-142002, 142, Kakamega, no-image.jpg, 1, 1, 1
-142003, 142, Nairobi National Park, no-image.jpg, 1, 1, 1
-142004, 142, Amboseli National Park, no-image.jpg, 1, 1, 1
-142005, 142, Tsavo East National Park, no-image.jpg, 1, 1, 1

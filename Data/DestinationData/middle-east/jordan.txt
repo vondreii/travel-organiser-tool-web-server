@@ -1,6 +1,0 @@
-46001, 46, Amman, no-image.jpg, 1, 1, 1
-46002, 46, Aqaba, no-image.jpg, 1, 1, 1
-46003, 46, Irbid, no-image.jpg, 1, 1, 1
-46004, 46, Petra, no-image.jpg, 1, 1, 1
-46005, 46, Wadi Rum Protected Area, no-image.jpg, 1, 1, 1
-46006, 46, Roman Theater, no-image.jpg, 1, 1, 1

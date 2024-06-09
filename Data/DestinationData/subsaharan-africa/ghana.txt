@@ -1,3 +1,0 @@
-138001, 138, Kumasi, no-image.jpg, 1, 1, 1
-138002, 138, Tamale, no-image.jpg, 1, 1, 1
-138003, 138, Kakum National Park, no-image.jpg, 1, 1, 1

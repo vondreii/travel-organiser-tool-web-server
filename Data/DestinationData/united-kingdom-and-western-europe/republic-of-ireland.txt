@@ -1,5 +1,0 @@
-67001, 67, Dublin, no-image.jpg, 1, 1, 1
-67002, 67, Galway, no-image.jpg, 1, 1, 1
-67003, 67, Blarney Castle, no-image.jpg, 1, 1, 1
-67004, 67, Kilkenny Castle, no-image.jpg, 1, 1, 1
-67005, 67, Dunluce Castle, no-image.jpg, 1, 1, 1

@@ -1,5 +1,0 @@
-3001, 3, Nadi, no-image.jpg, 1, 1, 1
-3002, 3, Suva, no-image.jpg, 1, 1, 1
-3003, 3, Lautoka, no-image.jpg, 1, 1, 1
-3004, 3, Ba, no-image.jpg, 1, 1, 1
-3005, 3, Labasa, no-image.jpg, 1, 1, 1

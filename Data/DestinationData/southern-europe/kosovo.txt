@@ -1,3 +1,0 @@
-91001, 91, Prizren, no-image.jpg, 1, 1, 1
-91002, 91, Prizren Fortress, no-image.jpg, 1, 1, 1
-91003, 91, Sharr Mountains National Park, no-image.jpg, 1, 1, 1

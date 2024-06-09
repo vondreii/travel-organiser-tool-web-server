@@ -1,2 +1,0 @@
-131001, 131, Djibouti City, no-image.jpg, 1, 1, 1
-131002, 131, Maskali Island, no-image.jpg, 1, 1, 1

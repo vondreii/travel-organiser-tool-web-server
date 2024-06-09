@@ -1,2 +1,0 @@
-114001, 114, Algiers, no-image.jpg, 1, 1, 1
-114002, 114, Oran, no-image.jpg, 1, 1, 1

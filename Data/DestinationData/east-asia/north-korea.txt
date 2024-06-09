@@ -1,1 +1,0 @@
-30001, 30, Pyongyang, no-image.jpg, 1, 1, 1

@@ -1,4 +1,0 @@
-17001, 17, Dili, no-image.jpg, 1, 1, 1
-17002, 17, Ainaro, no-image.jpg, 1, 1, 1
-17003, 17, Cristo Rei of Dili, no-image.jpg, 1, 1, 1
-17004, 17, Church of Saint Anthony of Motael, no-image.jpg, 1, 1, 1

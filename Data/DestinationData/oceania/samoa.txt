@@ -1,5 +1,0 @@
-10001, 10, Apia, no-image.jpg, 1, 1, 1
-10002, 10, Mount Fito, no-image.jpg, 1, 1, 1
-10003, 10, Samatau, no-image.jpg, 1, 1, 1
-10004, 10, Mount Silisili, no-image.jpg, 1, 1, 1
-10005, 10, Mount Vaea, no-image.jpg, 1, 1, 1

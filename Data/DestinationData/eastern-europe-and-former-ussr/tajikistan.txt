@@ -1,2 +1,0 @@
-110001, 110, Khujand, no-image.jpg, 1, 1, 1
-110002, 110, Dushanbe, no-image.jpg, 1, 1, 1

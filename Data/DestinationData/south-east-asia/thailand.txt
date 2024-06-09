@@ -1,6 +1,0 @@
-24001, 24, The Grand Palace, no-image.jpg, 1, 1, 1
-24002, 24, Bangkok, no-image.jpg, 1, 1, 1
-24003, 24, Chiang Mai, no-image.jpg, 1, 1, 1
-24004, 24, Pattaya City, no-image.jpg, 1, 1, 1
-24005, 24, Doi Inthanon, no-image.jpg, 1, 1, 1
-24006, 24, Khao Yai National Park, no-image.jpg, 1, 1, 1

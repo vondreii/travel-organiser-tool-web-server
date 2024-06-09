@@ -1,4 +1,0 @@
-40001, 40, K2, no-image.jpg, 1, 1, 1
-40002, 40, Kamalia, no-image.jpg, 1, 1, 1
-40003, 40, Hafizabad, no-image.jpg, 1, 1, 1
-40004, 40, Badshahi Mosque, no-image.jpg, 1, 1, 1

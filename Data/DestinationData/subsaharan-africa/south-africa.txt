@@ -1,5 +1,0 @@
-160001, 160, Cape Town, no-image.jpg, 1, 1, 1
-160002, 160, Kruger National Park, no-image.jpg, 1, 1, 1
-160003, 160, Maclear's Beacon, no-image.jpg, 1, 1, 1
-160004, 160, Voortrekker Monument, no-image.jpg, 1, 1, 1
-160005, 160, Cape of Good Hope, no-image.jpg, 1, 1, 1

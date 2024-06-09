@@ -1,2 +1,0 @@
-70001, 70, Brussels, no-image.jpg, 1, 1, 1
-70002, 70, Bruges, no-image.jpg, 1, 1, 1

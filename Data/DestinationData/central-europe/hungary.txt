@@ -1,3 +1,0 @@
-74001, 74, Budapest, no-image.jpg, 1, 1, 1
-74002, 74, Debrecen, no-image.jpg, 1, 1, 1
-74003, 74, Buda Castle, no-image.jpg, 1, 1, 1

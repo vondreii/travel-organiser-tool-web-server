@@ -1,6 +1,0 @@
-25001, 25, Ho Chi Minh City, no-image.jpg, 1, 1, 1
-25002, 25, Hanoi, no-image.jpg, 1, 1, 1
-25003, 25, Da Nang, no-image.jpg, 1, 1, 1
-25004, 25, Can Tho, no-image.jpg, 1, 1, 1
-25005, 25, Cu Chi Tunnel, no-image.jpg, 1, 1, 1
-25006, 25, Ho Chi Minh's Mausoleum, no-image.jpg, 1, 1, 1

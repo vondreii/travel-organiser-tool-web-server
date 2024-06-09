@@ -1,6 +1,0 @@
-73001, 73, Berlin, no-image.jpg, 1, 1, 1
-73002, 73, Hamburg, no-image.jpg, 1, 1, 1
-73003, 73, Munich, no-image.jpg, 1, 1, 1
-73004, 73, Cologne Cathedral, no-image.jpg, 1, 1, 1
-73005, 73, Brandenburg Gate, no-image.jpg, 1, 1, 1
-73006, 73, Neuschwanstein Castle, no-image.jpg, 1, 1, 1
