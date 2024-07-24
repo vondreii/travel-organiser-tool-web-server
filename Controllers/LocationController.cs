@@ -100,8 +100,8 @@ namespace TravelOrganiserTool.Controllers
         }
 
         [HttpGet]
-        [Route("getAllDestinations")]
-        public async Task<IActionResult> getAllDestinations()
+        [Route("GetAllDestinations")]
+        public async Task<IActionResult> GetAllDestinations()
         {
             var items = await _context.Destinations
                 .Select(l => new DestinationDto {
@@ -119,6 +119,49 @@ namespace TravelOrganiserTool.Controllers
                 .ToListAsync();
 
             var json = JsonSerializer.Serialize(items);
+
+            return Content(json, "application/json");
+        }
+
+        [HttpGet]
+        [Route("GetFilteredDestinations")]
+        public async Task<IActionResult> GetFilteredDestinations(int skip, int take, int populationTypeId, int climateTypeId, int terrainTypeId)
+        {
+            var filteredDestinations = _context.Destinations.AsQueryable();
+
+            if (populationTypeId != 0)
+            {
+                filteredDestinations = filteredDestinations.Where(d => d.PopulationTypeID == populationTypeId);
+            }
+            if (climateTypeId != 0)
+            {
+                filteredDestinations = filteredDestinations.Where(d => d.ClimateTypeID == climateTypeId);
+            }
+            if (terrainTypeId != 0)
+            {
+                filteredDestinations = filteredDestinations.Where(d => d.TerrainTypeID == terrainTypeId);
+            }
+
+            var items = await filteredDestinations
+            .OrderBy(c => c.Name)
+            .Skip(skip)
+            .Take(take)
+            .Select(d => new DestinationDto
+            {
+                Id = d.Id,
+                Name = d.Name,
+                CountryID = d.CountryID,
+                CountryName = d.Country.Name,
+                PopulationTypeID = d.PopulationTypeID,
+                ClimateTypeID = d.ClimateTypeID,
+                TerrainTypeID = d.TerrainTypeID,
+                ImageFilename = d.ImageFilename
+            })
+            .ToListAsync();
+
+            var totalCount = await filteredDestinations.CountAsync();
+
+            var json = JsonSerializer.Serialize(new { TotalCount = totalCount, Items = items });
 
             return Content(json, "application/json");
         }
